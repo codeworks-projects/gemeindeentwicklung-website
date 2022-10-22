@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.995 28">
-  <g id="arrow-down-short" transform="translate(0 28) rotate(-90)">
+  <g id="arrow-down-short" transform="translate(27.995) rotate(90)">
     <path id="Path_2475" data-name="Path 2475" d="M.587.49A2.217,2.217,0,0,1,2,0,2.217,2.217,0,0,1,3.419.49L14,9.319,24.582.49a2.294,2.294,0,0,1,2.831,0,1.482,1.482,0,0,1,0,2.361l-12,10.006a2.29,2.29,0,0,1-2.831,0L.587,2.851A1.542,1.542,0,0,1,0,1.671,1.542,1.542,0,0,1,.587.49Z" transform="translate(0 14.648)" fill-rule="evenodd"/>
     <path id="Path_2476" data-name="Path 2476" d="M1.668,0A1.892,1.892,0,0,1,3.335,2.055V22.6a1.892,1.892,0,0,1-1.668,2.055A1.892,1.892,0,0,1,0,22.6V2.055A1.892,1.892,0,0,1,1.668,0Z" transform="translate(12.332)" fill-rule="evenodd"/>
   </g>

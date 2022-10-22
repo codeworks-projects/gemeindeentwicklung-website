@@ -1,0 +1,64 @@
+{
+  "autonomousProvince": "Autonome Provinz Bozen - Südtirol",
+  "nowJoin": "Jetzt einbringen",
+  "project": "Project",
+  "strongPoints": "Schwerpunkte",
+  "howItWorks": "Wie funktioniert's",
+  "faq": "Faq",
+  "introText": "Gestalte Zukunft mit",
+  "introDesc": "Gemeindeentwicklungsprogramm: Gemeinsam mit dir wollen wir die Lebensqualität in den Gemeinden Südtirols verbessern.",
+  "goIn": "Bring dich ein",
+  "introExtendedDescPartOne": "Das Gemeindeentwicklungsprogramm Raum und Landschaft beinhaltet die Vorhaben und Ziele für eine nachhaltige, in die Zukunft orientierte Entwicklung der Gemeinde. Es ist ein übergeordnetes Planungsinstrument und Voraussetzung für den Gemeindeplan für Raum und Landschaft. Es gilt, die Balance zwischen der freien Landschaft und dem  besiedelten Raum zu halten. Daraus ergibt sich die Abgrenzung des Siedlungsraumes.",
+  "introExtendedDescPartTwo": "Die Initiative für das Gemeindeentwicklungsprogramm liegt beim Gemeinderat. Er beschließt den Start der Arbeiten und legt einen überschaubaren Zeitrahmen (1-2 Jahre) für die Erstellung fest.",
+  "learnMoreAboutProject": "Mehr zum project erfahren",
+  "featuresTitle": "Inhalte und Handlungsschwerpunkte",
+  "featuresDesc": "Lorem ipsum dolor sit met consectetur anean dolor",
+  "explanationTitle": "So funktioniert’s",
+  "explanationDesc": "Lorem epsom dolor sit met consectetur",
+  "moreQuestions": "Noch Fragen? Wir beantworten sie gerne!",
+  "moreQuestionsDesc": "Lorem epsom dolor sit met consectetur",
+  "moreQuestionsAsk": "Noch weitere Fragen?",
+  "joinToday": "Melde dich gerne",
+  "mapTitle": "Ist deine Gemeinde schon aktiv?",
+  "mapDesc": "Lorem epsom dolor sit met consectetur",
+  "contactTitle": "Gemeinsam schaffen wir mehr. Gemeinsam entstehen die besten Ideen.",
+  "contactDesc": "Du kennst deinen Ort und weißt um die Bedürfnisse und Realitäten von Jung und Alt. Dieses Wissen muss in die Fachexpertise einfließen. Bring dich mit ein!",
+  "reason": "Anrede",
+  "required": "Pflichtfeld",
+  "name": "Vorname",
+  "surname": "Nachname",
+  "email": "E-Mail",
+  "phone": "Telefon",
+  "leavingLocation": "Gemeinde, in der du mitwirken möchtest",
+  "acceptTerms": "{terms} akzeptieren",
+  "terms": "Datenschutzerklärung",
+  "submittedFormConfirmation": "Sie sind anmelded",
+  "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
+  "mobilityFeatureTitle": "Mobilität und Erreichbarkeit",
+  "mobilityFeatureDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+  "natureFeatureTitle": "Festlegung öffentlicher Flächen und Dienste",
+  "natureFeatureDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.",
+  "buildingFeatureTitle": "Um- und Wiedernutzung leerstehender Gebäude",
+  "buildingFeatureDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient edit montes, nascetur ridic.",
+  "explanations": {
+    "one": {
+      "title": "Gründung einer Kerngruppe",
+      "desc": "Lorem ipsum dolor sit met connect ansan dolor est amen consectetur anean dolor. Edit anean dolor est amen anean."
+    },
+    "two": {
+      "title": "Programmentwurf",
+      "desc": "Lorem ipsum dolor sit met connect ansan dolor est amen consectetur anean dolor. Edit anean dolor est amen anean."
+    },
+    "three": {
+      "title": "Genehmigungsverfahren",
+      "desc": "Lorem ipsum dolor sit met connect ansan dolor est amen consectetur anean dolor. Edit anean dolor est amen anean."
+    }
+  },
+  "faqs": {
+    "first": {
+      "title": "TITLE",
+      "desc": "VALUE"
+    }
+  },
+  "entityName": "Autonome Provinz Bozen-Südtirol | Ressort für Raumentwicklung, Landschaft und Landesdenkmalamt."
+}

@@ -23,6 +23,7 @@
       </div>
       <label>
         {{ label }}
+        <slot></slot>
       </label>
     </div>
   </div>
@@ -109,11 +110,11 @@ export default {
   & > .input {
     @apply relative inline-block mr-2 text-center;
 
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 
     & > input {
-      @apply absolute w-full h-full left-0 top-0 bg-input rounded-md align-top cursor-pointer;
+      @apply absolute w-full h-full left-0 top-0 rounded-md align-top border border-white cursor-pointer;
 
       transition: background 0.2s ease;
       -webkit-appearance: none;
@@ -131,8 +132,8 @@ export default {
       @apply relative inline-block pointer-events-none opacity-0 align-top;
 
       margin-top: 5px;
-      width: 14px;
-      height: 14px;
+      width: 10px;
+      height: 10px;
       fill: #fff;
       transition: opacity 0.2s ease, transform 0.2s ease;
       transform: scale(0.5);
@@ -140,9 +141,13 @@ export default {
   }
 
   & > label {
-    @apply inline-block align-top text-black text-base font-medium leading-tight pt-1;
+    @apply inline-block align-top text-white text-base font-medium leading-tight;
 
     max-width: calc(100% - 40px);
+
+    & a {
+      @apply font-bold;
+    }
   }
 
   &.checked {

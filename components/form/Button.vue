@@ -12,11 +12,13 @@
       'ico-only': value === '',
       'fill-width': fillWidth,
       'enhanced-contrast': enhancedContrast,
+      'with-desc': description,
     }"
     @click="clicked"
   >
     <icon v-if="icon !== ''" :name="icon" :type="iconType" />
     {{ value }}
+    <div v-if="description" class="description">{{ description }}</div>
     <Loader
       v-if="loading"
       class="loader-ct"
@@ -29,6 +31,10 @@
 export default {
   props: {
     value: {
+      type: String,
+      default: '',
+    },
+    description: {
       type: String,
       default: '',
     },
@@ -84,11 +90,12 @@ export default {
 
 <style lang="postcss" scoped>
 .button {
-  @apply relative inline-block rounded-lg px-6 text-base font-semibold select-none;
+  @apply relative inline-block px-8 text-sm uppercase font-bold text-center select-none;
 
   min-width: 50px;
   height: 50px;
   line-height: 50px;
+  border-radius: 25px;
 
   & > svg {
     @apply align-top mr-2;
@@ -99,15 +106,21 @@ export default {
     fill: #fff;
   }
 
+  & .description {
+    @apply text-xs mt-1 lowercase;
+  }
+
   & > .loader-ct {
-    @apply bg-primary rounded-lg;
+    @apply bg-yellow;
+
+    border-radius: inherit;
   }
 
   &.primary {
-    @apply bg-primary text-white;
+    @apply bg-yellow text-black;
 
     &:hover {
-      @apply bg-primary-hover;
+      @apply bg-yellow-hover;
     }
   }
 
@@ -186,6 +199,23 @@ export default {
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  &.with-desc {
+    @apply py-4 text-base normal-case;
+
+    height: 70px;
+    line-height: 1.2;
+    border-radius: 35px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .button {
+    &.with-desc {
+      height: 90px;
+      border-radius: 45px;
     }
   }
 }

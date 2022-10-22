@@ -115,15 +115,12 @@ export default {
 <style lang="postcss" scoped>
 .text-input {
   & input {
-    @apply text-base px-5 bg-input resize-none text-black font-medium;
+    @apply text-base px-6 py-3 bg-primary-hover resize-none text-white font-medium;
 
-    width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
+    width: 200px;
 
     &:focus {
-      @apply outline-none bg-input-focus;
+      @apply outline-none bg-primary-hover;
     }
 
     &[type='search'] {

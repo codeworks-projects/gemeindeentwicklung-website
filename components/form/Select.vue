@@ -77,18 +77,13 @@ export default {
 
 <style lang="postcss" scoped>
 .select {
-  & label {
-    @apply block text-sm text-black mb-1;
-  }
-
   & .selector {
-    @apply inline-block bg-input px-6 rounded-lg text-base font-semibold cursor-pointer;
-
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    @apply inline-block bg-primary-hover px-6 py-3 text-base font-medium cursor-pointer;
 
     & select {
-      @apply bg-transparent text-black text-base font-semibold;
+      @apply bg-transparent text-white text-base font-medium;
+
+      -webkit-appearance: none;
 
       &:focus {
         @apply outline-none;

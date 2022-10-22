@@ -1,223 +1,166 @@
 <template>
-  <header>
+  <section>
+    <header class="header-container center">
+      <div class="left-section-header">
+        <Icon name="province-logo" class="province-logo" />
+        {{ $t('autonomousProvince') }}
+      </div>
+      <div class="right-section-header">
+        <span
+          :class="{ lang: true, current: locale === 'de' }"
+          @click="changeLanguage('de')"
+          >{{ isMobile ? 'de' : 'deu' }}</span
+        >
+        <span
+          :class="{ lang: true, current: locale === 'it' }"
+          @click="changeLanguage('it')"
+          >{{ isMobile ? 'it' : 'ita' }}</span
+        >
+      </div>
+      <div v-if="isMobile" class="line"></div>
+    </header>
     <div class="center">
-      <nuxt-link :to="localePath('/')" :title="$t('common.homepage')">
-        <Icon name="logo" class="logo" />
-      </nuxt-link>
-      <div class="nav-ct" :class="{ visible: visibleMenu }">
-        <nav>
-          <ul>
-            <li
-              v-for="section in sections"
-              :key="section.ref"
-              class="clickable"
-            >
-              <nuxt-link :to="localePath(section.path)" :title="section.name">
-                {{ section.name }}
-              </nuxt-link>
-            </li>
-          </ul>
-        </nav>
-        <Button icon="search" class="button" @click="showSearchBar" />
-        <Button icon="cart" class="button" @click="showCart" />
-        <Button
-          :value="$t('common.create')"
-          class="button"
-          @click="showCreationModal"
-        />
-        <div class="profile-bt"></div>
+      <div class="top-menu">
+        <a
+          v-for="voice in menuVoices"
+          :key="voice.sectionId"
+          :href="'#' + voice.sectionId"
+          class="voice"
+          >{{ voice.name }}</a
+        ><a href="#contact">
+          <Button :value="$t('nowJoin')" class="button" />
+        </a>
       </div>
     </div>
-    <div
-      class="menu-bt clickable"
-      :class="{ opened: visibleMenu }"
-      @click="toggleMenuVisibility()"
-    >
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-  </header>
+  </section>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      visibleMenu: false,
+      isMobile: false,
     }
   },
 
   computed: {
-    sections() {
+    locale() {
+      return this.$i18n.locale
+    },
+
+    menuVoices() {
       return [
         {
-          path: '/genres',
-          name: this.$t('common.genres'),
+          name: this.$t('project'),
+          sectionId: 'intro',
         },
         {
-          path: '/creations',
-          name: this.$t('common.creations'),
+          name: this.$t('strongPoints'),
+          sectionId: 'features',
         },
         {
-          path: '/makers',
-          name: this.$t('common.makers'),
+          name: this.$t('howItWorks'),
+          sectionId: 'explanation',
+        },
+        {
+          name: this.$t('faq'),
+          sectionId: 'faq',
         },
       ]
     },
   },
 
+  mounted() {
+    window.onresize = () => {
+      this.checkIfMobile()
+      location.reload()
+    }
+    this.checkIfMobile()
+  },
+
   methods: {
-    toggleMenuVisibility() {
-      this.visibleMenu = !this.visibleMenu
+    checkIfMobile() {
+      if ((this.isMobile = window.innerWidth < 980))
+        return (this.isMobile = true)
     },
 
-    hideMenu() {
-      this.visibleMenu = false
-    },
-
-    showSearchBar() {
-      // TODO
-    },
-
-    showCart() {
-      // TODO
-    },
-
-    showCreationModal() {
-      // TODO
+    changeLanguage(lang) {
+      this.$i18n.setLocale(lang)
     },
   },
 }
 </script>
 
 <style lang="postcss" scoped>
-header {
-  @apply font-semibold select-none fixed top-0 left-0 right-0 bg-white shadow-md z-10;
+.header-container {
+  @apply flex justify-between items-center h-12 mt-2;
 
-  height: 85px;
+  & .left-section-header {
+    @apply text-sm flex items-center gap-3;
 
-  & .logo {
-    @apply relative z-10;
-
-    height: 40px;
-    margin-top: 20px;
-  }
-
-  & .nav-ct {
-    @apply float-right align-top;
-
-    white-space: nowrap;
-    margin-top: 20px;
-
-    & nav {
-      @apply inline-block align-top;
-
-      & li {
-        @apply inline-block text-lg text-black mr-6;
-
-        line-height: 44px;
-      }
-    }
-
-    & .button {
-      @apply inline-block mr-2 align-top;
-    }
-
-    & .profile-bt {
-      @apply inline-block bg-placeholder;
-
-      width: 43px;
-      height: 43px;
-      border-radius: 50%;
+    & .province-logo {
+      @apply h-10 w-auto;
     }
   }
 
-  & .menu-bt {
-    @apply absolute z-10 hidden;
+  & .right-section-header {
+    @apply uppercase flex gap-6 text-sm flex-wrap;
 
-    top: 19px;
-    right: 15px;
-    width: 34px;
-    height: 39px;
-    transition: transform 0.5s ease;
+    & .lang {
+      @apply cursor-pointer;
 
-    & > .line {
-      @apply bg-black;
-
-      height: 2px;
-      margin-bottom: 10px;
-      border-radius: 1px;
-      transform-origin: 50%;
-      transition: transform 0.5s ease, opacity 0.5s ease;
-
-      &:last-child {
-        margin-bottom: 0;
+      &:hover {
+        opacity: 0.8;
       }
-    }
 
-    &.opened {
-      transform: translateX(15px);
-
-      & > .line {
-        &:first-child {
-          transform: rotate(45deg) translateY(17px);
-        }
-
-        &:nth-child(2) {
-          opacity: 0;
-        }
-
-        &:last-child {
-          transform: rotate(-45deg) translateY(-17px);
-        }
+      &.current {
+        @apply font-bold;
       }
     }
   }
 }
 
+.top-menu {
+  @apply text-right mt-4 font-bold;
+
+  & .voice {
+    @apply mx-3 uppercase text-sm;
+  }
+
+  & .button {
+    @apply ml-4;
+  }
+}
+
 @media only screen and (max-width: 980px) {
-  header {
-    @apply fixed;
+  .header-container {
+    @apply text-base py-2 mb-0 relative;
 
-    height: 65px;
+    & .left-section-header {
+      @apply gap-2 leading-none text-xs;
 
-    & .logo {
-      height: 35px;
-      margin-top: 15px;
+      max-width: 60%;
     }
 
-    & .nav-ct {
-      @apply fixed right-0 bottom-0 left-0 bg-white mt-0 float-none opacity-0 transition duration-200 pointer-events-none;
+    & .right-section-header {
+      @apply gap-3 text-right justify-end;
 
-      top: 64px;
-      white-space: initial;
-      padding-right: 25px;
-      padding-left: 25px;
-      transform: translateY(-40px);
-
-      & nav {
-        @apply block text-3xl mt-8 mb-10;
-
-        & li {
-          @apply block leading-none text-white mb-6;
-        }
-      }
-
-      & .profile-bt {
-        @apply mt-3;
-      }
-
-      &.visible {
-        @apply opacity-100 pointer-events-auto;
-
-        transform: none;
+      & .lang {
+        @apply font-normal;
       }
     }
 
-    & .menu-bt {
-      @apply block;
+    & .line {
+      @apply absolute bottom-0;
+
+      border-bottom: 1px solid lightgray;
+      width: 100vw;
+      left: -25px;
     }
+  }
+
+  .top-menu {
+    @apply hidden;
   }
 }
 </style>

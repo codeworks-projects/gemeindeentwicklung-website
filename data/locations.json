@@ -1,0 +1,930 @@
+[
+  {
+    "undefined": "1",
+    "Gemeinde": "ABTEI",
+    "Comune": "BADIA",
+    "Anprechparner/in": "Giacomo Frenademetz",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.abtei.bz.it"
+  },
+  {
+    "undefined": "2",
+    "Gemeinde": "AHRNTAL",
+    "Comune": "VALLE AURINA",
+    "Anprechparner/in": "Helmut Gebhard Klammer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@ahrntal.eu"
+  },
+  {
+    "undefined": "3",
+    "Gemeinde": "ALDEIN",
+    "Comune": "ALDINO",
+    "Anprechparner/in": "Andreas Heinz ",
+    "Funktion": "Vizebürgermeister ",
+    "E-Mail": "andreas.heinz@planteam.it "
+  },
+  {
+    "undefined": "4",
+    "Gemeinde": "ALGUND",
+    "Comune": "LAGUNDO",
+    "Anprechparner/in": "Ulrich Gamper ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@algund.eu"
+  },
+  {
+    "undefined": "5",
+    "Gemeinde": "ALTREI",
+    "Comune": "ANTERIVO",
+    "Anprechparner/in": "Gustav Mattivi",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.altrei.bz.it"
+  },
+  {
+    "undefined": "6",
+    "Gemeinde": "ANDRIAN",
+    "Comune": "ANDRIANO",
+    "Anprechparner/in": "Roland Danay",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "roland.danay@gemeinde.andrian.bz.it"
+  },
+  {
+    "undefined": "7",
+    "Gemeinde": "AUER",
+    "Comune": "ORA",
+    "Anprechparner/in": "Martin Feichter",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "martin.feichter@gemeinde.auer.bz.it"
+  },
+  {
+    "undefined": "8",
+    "Gemeinde": "BARBIAN",
+    "Comune": "BARBIANO",
+    "Anprechparner/in": "Erich Mur",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@barbian.eu"
+  },
+  {
+    "undefined": "9",
+    "Gemeinde": "BOZEN",
+    "Comune": "BOLZANO",
+    "Anprechparner/in": "Paolo Bellenzier",
+    "Funktion": "Direktor der Abteilung für Raumplanung und -entwicklung",
+    "E-Mail": "paolo.bellenzier@gemeinde.bozen.it"
+  },
+  {
+    "undefined": "10",
+    "Gemeinde": "BRANZOLL",
+    "Comune": "BRONZOLO",
+    "Anprechparner/in": "Klaus Kaufmann",
+    "Funktion": "Gemeinderat",
+    "E-Mail": "klauskaufmannbz@gmail.com"
+  },
+  {
+    "undefined": "11",
+    "Gemeinde": "BRENNER",
+    "Comune": "BRENNERO",
+    "Anprechparner/in": "Martin Alber",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeindebrenner.eu"
+  },
+  {
+    "undefined": "12",
+    "Gemeinde": "BRIXEN",
+    "Comune": "BRESSANONE",
+    "Anprechparner/in": "Peter Brunner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@brixen.it"
+  },
+  {
+    "undefined": "13",
+    "Gemeinde": "BRUNECK",
+    "Comune": "BRUNICO",
+    "Anprechparner/in": "Reinhard Weger",
+    "Funktion": "Bereich Urbanistik",
+    "E-Mail": "reinhard.weger@gemeinde.bruneck.bz.it"
+  },
+  {
+    "undefined": "14",
+    "Gemeinde": "BURGSTALL",
+    "Comune": "POSTAL",
+    "Anprechparner/in": "Othmar Unterkofler ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.burgstall.bz.it"
+  },
+  {
+    "undefined": "15",
+    "Gemeinde": "CORVARA",
+    "Comune": "CORVARA IN BADIA",
+    "Anprechparner/in": "Robert Rottonara",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@corvara.eu"
+  },
+  {
+    "undefined": "16",
+    "Gemeinde": "DEUTSCHNOFEN",
+    "Comune": "NOVA PONENTE",
+    "Anprechparner/in": "Bernhard Daum",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "bernhard.daum@deutschnofen.eu"
+  },
+  {
+    "undefined": "17",
+    "Gemeinde": "ENNEBERG",
+    "Comune": "MAREBBE",
+    "Anprechparner/in": "Felix Ploner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "felix.ploner@gemeinde.enneberg.bz.it"
+  },
+  {
+    "undefined": "18",
+    "Gemeinde": "EPPAN AN DER WEINSTRASSE",
+    "Comune": "APPIANO SULLA STRADA DEL VINO",
+    "Anprechparner/in": "Reinhard Zublasing",
+    "Funktion": "Referent für Urbanistik und Nachhaltigkeitsbeauftragter",
+    "E-Mail": "reinhard@zublasing.eu"
+  },
+  {
+    "undefined": "19",
+    "Gemeinde": "FELDTHURNS",
+    "Comune": "VELTURNO",
+    "Anprechparner/in": "Konrad Messner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.feldthurns.bz.it"
+  },
+  {
+    "undefined": "20",
+    "Gemeinde": "FRANZENSFESTE",
+    "Comune": "FORTEZZA",
+    "Anprechparner/in": "Thomas Klapfer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeindefranzensfeste.eu"
+  },
+  {
+    "undefined": "21",
+    "Gemeinde": "FREIENFELD",
+    "Comune": "CAMPO DI TRENS",
+    "Anprechparner/in": "Verena Überegger",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "verena.ueberegger@gemeinde.freienfeld.bz.it"
+  },
+  {
+    "undefined": "22",
+    "Gemeinde": "GAIS",
+    "Comune": "GAIS",
+    "Anprechparner/in": "Christian Gartner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gais.eu"
+  },
+  {
+    "undefined": "23",
+    "Gemeinde": "GARGAZON",
+    "Comune": "GARGAZZONE",
+    "Anprechparner/in": "Armin Gorfer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.gargazon.bz.it"
+  },
+  {
+    "undefined": "24",
+    "Gemeinde": "GLURNS",
+    "Comune": "GLORENZA",
+    "Anprechparner/in": "Erich Josef Wallnöfer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.glurns.bz.it"
+  },
+  {
+    "undefined": "25",
+    "Gemeinde": "GRAUN IN VINSCHGAU",
+    "Comune": "CURON VENOSTA",
+    "Anprechparner/in": "Franz Alfred Prieth",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "franz.prieth@graun.eu"
+  },
+  {
+    "undefined": "26",
+    "Gemeinde": "GSIES",
+    "Comune": "VALLE DI CASIES",
+    "Anprechparner/in": "Paul Schwingshackl",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "paul.schwingshackl@gsies.eu"
+  },
+  {
+    "undefined": "27",
+    "Gemeinde": "HAFLING",
+    "Comune": "AVELENGO",
+    "Anprechparner/in": "Sonja Anna Plank",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "sonja.anna.plank@gemeinde.hafling.bz.it"
+  },
+  {
+    "undefined": "28",
+    "Gemeinde": "INNICHEN",
+    "Comune": "SAN CANDIDO",
+    "Anprechparner/in": "Klaus Rainer ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "kr@innichen.eu"
+  },
+  {
+    "undefined": "29",
+    "Gemeinde": "JENESIEN",
+    "Comune": "SAN GENESIO ATESINO",
+    "Anprechparner/in": "Paul Romen ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.jenesien.bz.it"
+  },
+  {
+    "undefined": "30",
+    "Gemeinde": "KALTERN AN DER WEINSTRASSE",
+    "Comune": "CALDARO SULLA STRADA DEL VINO",
+    "Anprechparner/in": "Gertraud Benin Bernhard",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "info@kaltern.eu"
+  },
+  {
+    "undefined": "31",
+    "Gemeinde": "KARNEID",
+    "Comune": "CORNEDO ALL'ISARCO",
+    "Anprechparner/in": "Alpin Kofler",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.karneid.bz.it"
+  },
+  {
+    "undefined": "32",
+    "Gemeinde": "KASTELBELL/TSCHARS",
+    "Comune": "CASTELBELLO-CIARDES",
+    "Anprechparner/in": "Gustav Erich Tappeiner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.kastelbell-tschars.bz.it"
+  },
+  {
+    "undefined": "33",
+    "Gemeinde": "KASTELRUTH",
+    "Comune": "CASTELROTTO",
+    "Anprechparner/in": "Andreas Fraccaro",
+    "Funktion": "Ausserordentlicher Kommissär",
+    "E-Mail": "info@gemeinde.kastelruth.bz.it"
+  },
+  {
+    "undefined": "34",
+    "Gemeinde": "KIENS",
+    "Comune": "CHIENES",
+    "Anprechparner/in": "Andreas Falkensteiner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.kiens.bz.it"
+  },
+  {
+    "undefined": "35",
+    "Gemeinde": "KLAUSEN",
+    "Comune": "CHIUSA",
+    "Anprechparner/in": "Peter Gasser",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@klausen.eu"
+  },
+  {
+    "undefined": "36",
+    "Gemeinde": "KUENS",
+    "Comune": "CAINES",
+    "Anprechparner/in": "Manfred Raffl",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "kuens@gemeinde.kuens.bz.it"
+  },
+  {
+    "undefined": "37",
+    "Gemeinde": "KURTATSCH AN DER WEINSTRASSE",
+    "Comune": "CORTACCIA SULLA STRADA DEL VINO",
+    "Anprechparner/in": "Oswald Schiefer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "oswald.schiefer@gemeinde.kurtatsch.bz.it"
+  },
+  {
+    "undefined": "38",
+    "Gemeinde": "KURTINIG AN DER WEINSTRASSE",
+    "Comune": "CORTINA SULLA STRADA DEL VINO",
+    "Anprechparner/in": "Manfred Mayr",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "manfred.mayr@gemeinde.kurtinig.bz.it"
+  },
+  {
+    "undefined": "39",
+    "Gemeinde": "LAAS",
+    "Comune": "LASA",
+    "Anprechparner/in": "Verena Tröger",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "info@gemeinde.laas.bz.it"
+  },
+  {
+    "undefined": "40",
+    "Gemeinde": "LAJEN",
+    "Comune": "LAION",
+    "Anprechparner/in": "Stefan Leiter",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "stefan.leiter@lajen.eu"
+  },
+  {
+    "undefined": "41",
+    "Gemeinde": "LANA",
+    "Comune": "LANA",
+    "Anprechparner/in": "Harald Stauder ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "harald.stauder@gemeinde.lana.bz.it"
+  },
+  {
+    "undefined": "42",
+    "Gemeinde": "LATSCH",
+    "Comune": "LACES",
+    "Anprechparner/in": "Mauro Dalla Barba",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "mauro.dallabarba@gemeinde.latsch.bz.it"
+  },
+  {
+    "undefined": "43",
+    "Gemeinde": "LAUREIN",
+    "Comune": "LAUREGNO",
+    "Anprechparner/in": "Hartmann Thaler",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.laurein.bz.it"
+  },
+  {
+    "undefined": "44",
+    "Gemeinde": "LEIFERS",
+    "Comune": "LAIVES",
+    "Anprechparner/in": "Alessandra Montel ",
+    "Funktion": "Dirigente Ufficio sviluppo del territorio ",
+    "E-Mail": "alessandra.montel@comune.laives.bz.it"
+  },
+  {
+    "undefined": "45",
+    "Gemeinde": "LÜSEN",
+    "Comune": "LUSON",
+    "Anprechparner/in": "Carmen Plaseller",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "info@gemeinde.luesen.bz.it"
+  },
+  {
+    "undefined": "46",
+    "Gemeinde": "MALS",
+    "Comune": "MALLES VENOSTA",
+    "Anprechparner/in": "Werner Rufinatscha",
+    "Funktion": "Leiter der Servicestelle für Bau- und Landschaftsangelegenheiten",
+    "E-Mail": "werner.rufinatscha@gemeinde.mals.bz.it"
+  },
+  {
+    "undefined": "47",
+    "Gemeinde": "MARGREID AN DER WEINSTRASSE",
+    "Comune": "MAGRE' SULLA STRADA DEL VINO",
+    "Anprechparner/in": "Andreas Bonell",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.margreid.bz.it"
+  },
+  {
+    "undefined": "48",
+    "Gemeinde": "MARLING",
+    "Comune": "MARLENGO",
+    "Anprechparner/in": "Felix Lanpacher",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.marling.bz.it"
+  },
+  {
+    "undefined": "49",
+    "Gemeinde": "MARTELL",
+    "Comune": "MARTELLO",
+    "Anprechparner/in": "Georg Altstätter",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.martell.bz.it"
+  },
+  {
+    "undefined": "50",
+    "Gemeinde": "MERAN",
+    "Comune": "MERANO",
+    "Anprechparner/in": "Dario Dal Medico",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.meran.bz.it"
+  },
+  {
+    "undefined": "51",
+    "Gemeinde": "MÖLTEN",
+    "Comune": "MELTINA",
+    "Anprechparner/in": "Karin Gruber",
+    "Funktion": "Referentin für Urbanistik",
+    "E-Mail": "grubkarin@gmail.com"
+  },
+  {
+    "undefined": "52",
+    "Gemeinde": "MONTAN",
+    "Comune": "MONTAGNA",
+    "Anprechparner/in": "Monika Delvai",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "monika.delvai@montan.eu"
+  },
+  {
+    "undefined": "53",
+    "Gemeinde": "MOOS IN PASSEIER",
+    "Comune": "MOSO IN PASSIRIA",
+    "Anprechparner/in": "Gothard Gufler",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@moosip.bz.it"
+  },
+  {
+    "undefined": "54",
+    "Gemeinde": "MÜHLBACH",
+    "Comune": "RIO DI PUSTERIA",
+    "Anprechparner/in": "Heinrich Seppi",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@muehlbach.it"
+  },
+  {
+    "undefined": "55",
+    "Gemeinde": "MÜHLWALD",
+    "Comune": "SELVA DEI MOLINI",
+    "Anprechparner/in": "Ruth Morandi",
+    "Funktion": "Gemeindesekretärin",
+    "E-Mail": "ruth.morandi@muehlwald.eu"
+  },
+  {
+    "undefined": "56",
+    "Gemeinde": "NALS",
+    "Comune": "NALLES",
+    "Anprechparner/in": "Eduard Gasser",
+    "Funktion": "Gemeindereferent ",
+    "E-Mail": "info@nals.eu"
+  },
+  {
+    "undefined": "57",
+    "Gemeinde": "NATURNS",
+    "Comune": "NATURNO",
+    "Anprechparner/in": "Zeno Christanell",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.naturns.bz.it"
+  },
+  {
+    "undefined": "58",
+    "Gemeinde": "NATZ-SCHABS",
+    "Comune": "NAZ SCIAVES",
+    "Anprechparner/in": "Alexander Überbacher",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.natz-schabs.bz.it"
+  },
+  {
+    "undefined": "59",
+    "Gemeinde": "NEUMARKT",
+    "Comune": "EGNA",
+    "Anprechparner/in": "Karin Jost",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "info@gemeinde.neumarkt.bz.it"
+  },
+  {
+    "undefined": "60",
+    "Gemeinde": "NIEDERDORF",
+    "Comune": "VILLABASSA",
+    "Anprechparner/in": "Günther Wisthaler",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "guenther.wisthaler@niederdorf.eu"
+  },
+  {
+    "undefined": "61",
+    "Gemeinde": "OLANG",
+    "Comune": "VALDAORA",
+    "Anprechparner/in": "Georg Reden",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "buergermeister@olang.eu"
+  },
+  {
+    "undefined": "62",
+    "Gemeinde": "PARTSCHINS",
+    "Comune": "PARCINES",
+    "Anprechparner/in": "Andreas Tappeiner",
+    "Funktion": "Verwantwortlicher der Servicestelle",
+    "E-Mail": "andreas.tappeiner@gemeinde.partschins.bz.it"
+  },
+  {
+    "undefined": "63",
+    "Gemeinde": "PERCHA",
+    "Comune": "PERCA",
+    "Anprechparner/in": "Martin Schneider",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "martin.schneider@gemeinde.percha.bz.it"
+  },
+  {
+    "undefined": "64",
+    "Gemeinde": "PFALZEN",
+    "Comune": "FALZES",
+    "Anprechparner/in": "Roland Tinkhauser",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.pfalzen.bz.it"
+  },
+  {
+    "undefined": "65",
+    "Gemeinde": "PFATTEN",
+    "Comune": "VADENA",
+    "Anprechparner/in": "Elmar Oberhofer und Franco Giacomozzi",
+    "Funktion": "Bürgermeister / Gemeindetechniker ",
+    "E-Mail": "franco.giacomozzi@gemeinde.pfatten.bz.it"
+  },
+  {
+    "undefined": "66",
+    "Gemeinde": "PFITSCH",
+    "Comune": "VAL DI VIZZE",
+    "Anprechparner/in": "Stefan Gufler",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.pfitsch.bz.it"
+  },
+  {
+    "undefined": "67",
+    "Gemeinde": "PLAUS",
+    "Comune": "PLAUS",
+    "Anprechparner/in": "Sabine Widmann",
+    "Funktion": "Servicestelle für Bau- u. Landschaftsangelegenheiten",
+    "E-Mail": "sabine.widmann@gemeinde.plaus.bz.it"
+  },
+  {
+    "undefined": "68",
+    "Gemeinde": "PRAD AM STILFSERJOCH",
+    "Comune": "PRATO ALLO STELVIO",
+    "Anprechparner/in": "Rafael Alber",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.prad.bz.it"
+  },
+  {
+    "undefined": "69",
+    "Gemeinde": "PRAGS",
+    "Comune": "BRAIES",
+    "Anprechparner/in": "Friedrich Mittermair",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.prags.bz.it"
+  },
+  {
+    "undefined": "70",
+    "Gemeinde": "PRETTAU",
+    "Comune": "PREDOI",
+    "Anprechparner/in": "Robert Alexander Steger",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@prettau.it"
+  },
+  {
+    "undefined": "71",
+    "Gemeinde": "PROVEIS",
+    "Comune": "PROVES",
+    "Anprechparner/in": "Ulrich Gamper ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.proveis.bz.it"
+  },
+  {
+    "undefined": "72",
+    "Gemeinde": "RASEN ANTHOLZ",
+    "Comune": "RASUN ANTERSELVA",
+    "Anprechparner/in": "Thomas Schuster",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "thomas.schuster@rasen-antholz.eu"
+  },
+  {
+    "undefined": "73",
+    "Gemeinde": "RATSCHINGS",
+    "Comune": "RACINES",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@ratschings.eu"
+  },
+  {
+    "undefined": "74",
+    "Gemeinde": "RIFFIAN",
+    "Comune": "RIFIANO",
+    "Anprechparner/in": "Franz Pixner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.riffian.bz.it"
+  },
+  {
+    "undefined": "75",
+    "Gemeinde": "RITTEN",
+    "Comune": "RENON",
+    "Anprechparner/in": "Paul Lintner ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "paul.lintner@ritten.eu "
+  },
+  {
+    "undefined": "76",
+    "Gemeinde": "RODENECK",
+    "Comune": "RODENGO",
+    "Anprechparner/in": "Alois Widmann",
+    "Funktion": "Gemeindereferent ",
+    "E-Mail": "alois.widmann59@gmail.com"
+  },
+  {
+    "undefined": "77",
+    "Gemeinde": "SALURN",
+    "Comune": "SALORNO",
+    "Anprechparner/in": "Roland Lazzeri",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.salurn.bz.it"
+  },
+  {
+    "undefined": "78",
+    "Gemeinde": "SAND IN TAUFERS",
+    "Comune": "CAMPO TURES",
+    "Anprechparner/in": "Kurt Egger",
+    "Funktion": "Gemeinderat",
+    "E-Mail": "info@sandintaufers.eu"
+  },
+  {
+    "undefined": "79",
+    "Gemeinde": "SANKT CHRISTINA IN GRÖDEN",
+    "Comune": "SANTA CRISTINA VALGARDENA",
+    "Anprechparner/in": "Christoph Senoner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@sanktchristina.eu"
+  },
+  {
+    "undefined": "80",
+    "Gemeinde": "SANKT LEONHARD IN PASSEIER",
+    "Comune": "SAN LEONARDO IN PASSIRIA",
+    "Anprechparner/in": "Robert Tschöll",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "robert.tschoell@sankt-leonhard.eu"
+  },
+  {
+    "undefined": "81",
+    "Gemeinde": "SANKT LORENZEN",
+    "Comune": "SAN LORENZO DI SEBATO",
+    "Anprechparner/in": "Martin Ausserdorfer ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "buergermeister@stlorenzen.eu"
+  },
+  {
+    "undefined": "82",
+    "Gemeinde": "SANKT MARTIN IN PASSEIER",
+    "Comune": "SAN MARTINO IN PASSIRIA",
+    "Anprechparner/in": "Rosmarie Pamer und Thomas Karlegger ",
+    "Funktion": "Bürgermeisterin / Verantwortlicher der Servicestelle für Raum und Landschaft",
+    "E-Mail": "thomas.karlegger@stmp.it"
+  },
+  {
+    "undefined": "83",
+    "Gemeinde": "SANKT MARTIN IN THURN",
+    "Comune": "SAN MARTINO IN BADIA",
+    "Anprechparner/in": "Felix Graffonara ",
+    "Funktion": "Gemeindereferent",
+    "E-Mail": "felix@projectlinesrl.it"
+  },
+  {
+    "undefined": "84",
+    "Gemeinde": "SANKT PANKRAZ",
+    "Comune": "SAN PANCRAZIO",
+    "Anprechparner/in": "Thomas Holzner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.stpankraz.bz.it"
+  },
+  {
+    "undefined": "85",
+    "Gemeinde": "SANKT ULRICH",
+    "Comune": "ORTISEI",
+    "Anprechparner/in": "Tobia Moroder",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.stulrich.bz.it"
+  },
+  {
+    "undefined": "86",
+    "Gemeinde": "SARNTAL",
+    "Comune": "SARENTINO",
+    "Anprechparner/in": "Christian Reichsigl ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "christian.reichsigl@gemeinde.sarntal.bz.it"
+  },
+  {
+    "undefined": "87",
+    "Gemeinde": "SCHENNA",
+    "Comune": "SCENA",
+    "Anprechparner/in": "Annalies Pichler",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "info@gemeinde.schenna.bz.it"
+  },
+  {
+    "undefined": "88",
+    "Gemeinde": "SCHLANDERS",
+    "Comune": "SILANDRO",
+    "Anprechparner/in": "Dieter Pinggera",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@schlanders.it"
+  },
+  {
+    "undefined": "89",
+    "Gemeinde": "SCHLUDERNS",
+    "Comune": "SLUDERNO",
+    "Anprechparner/in": "Heiko Hauser",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "heiko.hauser@gemeinde.schluderns.bz.it"
+  },
+  {
+    "undefined": "90",
+    "Gemeinde": "SCHNALS",
+    "Comune": "SENALES",
+    "Anprechparner/in": "Karl Josef Rainer ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "karl.josef.rainer@gemeinde.schnals.bz.it"
+  },
+  {
+    "undefined": "91",
+    "Gemeinde": "SEXTEN",
+    "Comune": "SESTO",
+    "Anprechparner/in": "Thomas Summerer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@sexten.eu"
+  },
+  {
+    "undefined": "92",
+    "Gemeinde": "STERZING",
+    "Comune": "VIPITENO",
+    "Anprechparner/in": "Kathrin Kral",
+    "Funktion": "Leiterin der Raumordnung",
+    "E-Mail": "kathrin.kral@sterzing.eu"
+  },
+  {
+    "undefined": "93",
+    "Gemeinde": "STILFS",
+    "Comune": "STELVIO",
+    "Anprechparner/in": "Armin Angerer ",
+    "Funktion": "Vize-Bürgermeister",
+    "E-Mail": "info@gemeinde.stilfs.bz.it"
+  },
+  {
+    "undefined": "94",
+    "Gemeinde": "TAUFERS IM MÜNSTERTAL",
+    "Comune": "TUBRE",
+    "Anprechparner/in": "Rosalinde Gunsch und Gerd Blaas",
+    "Funktion": "Bürgermeisterin / Verantwortlicher der Servicestelle für Bau- und Landschaftsangelegenheiten",
+    "E-Mail": "gerd.blaas@gemeinde.taufers.bz.it ",
+    "\r\n\r\n\r\n": "machmit@gemeinde.taufers.bz.it"
+  },
+  {
+    "undefined": "95",
+    "Gemeinde": "TERENTEN",
+    "Comune": "TERENTO",
+    "Anprechparner/in": "Reinhold Weger ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.terenten.bz.it"
+  },
+  {
+    "undefined": "96",
+    "Gemeinde": "TERLAN",
+    "Comune": "TERLANO",
+    "Anprechparner/in": "Hansjörg Zelger ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.terlan.bz.it"
+  },
+  {
+    "undefined": "97",
+    "Gemeinde": "TIERS",
+    "Comune": "TIRES",
+    "Anprechparner/in": "Gernot Psenner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.tiers.bz.it"
+  },
+  {
+    "undefined": "98",
+    "Gemeinde": "TIROL",
+    "Comune": "TIROLO",
+    "Anprechparner/in": "Erich Ratschiller",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.tirol.bz.it"
+  },
+  {
+    "undefined": "99",
+    "Gemeinde": "TISENS",
+    "Comune": "TESIMO",
+    "Anprechparner/in": "Christoph Matscher",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.tisens.bz.it"
+  },
+  {
+    "undefined": "100",
+    "Gemeinde": "TOBLACH",
+    "Comune": "DOBBIACO",
+    "Anprechparner/in": "Martin Rienzner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@toblach.eu"
+  },
+  {
+    "undefined": "101",
+    "Gemeinde": "TRAMIN AN DER WEINSTRASSE",
+    "Comune": "TERMENO SULLA STRADA DEL VINO",
+    "Anprechparner/in": "Wolfgang Oberhofer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "buergermeister@gemeinde.tramin.bz.it"
+  },
+  {
+    "undefined": "102",
+    "Gemeinde": "TRUDEN",
+    "Comune": "TRODENA",
+    "Anprechparner/in": "Michael Epp",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "michael.epp@truden.eu"
+  },
+  {
+    "undefined": "103",
+    "Gemeinde": "TSCHERMS",
+    "Comune": "CERMES",
+    "Anprechparner/in": "Astrid Kuprian",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "info@gemeinde.tscherms.bz.it"
+  },
+  {
+    "undefined": "104",
+    "Gemeinde": "U.L.FRAU I.W.-ST.FELIX",
+    "Comune": "SENALE-SAN FELICE",
+    "Anprechparner/in": "Gabriela Kofler",
+    "Funktion": "Bürgermeisterin",
+    "E-Mail": "gabriela.kofler@ulfraufelix.eu"
+  },
+  {
+    "undefined": "105",
+    "Gemeinde": "ULTEN",
+    "Comune": "ULTIMO",
+    "Anprechparner/in": "Stefan Schwarz",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.ulten.bz.it"
+  },
+  {
+    "undefined": "106",
+    "Gemeinde": "VAHRN",
+    "Comune": "VARNA",
+    "Anprechparner/in": "Andreas Schatzer und Karin Obergasser ",
+    "Funktion": "Bürgermeister/ Vize-Gemeindesekretärin",
+    "E-Mail": "karin.obergasser@vahrn.eu"
+  },
+  {
+    "undefined": "107",
+    "Gemeinde": "VILLANDERS",
+    "Comune": "VILLANDRO",
+    "Anprechparner/in": "Walter Baumgartner",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "walter.baumgartner@villanders.eu"
+  },
+  {
+    "undefined": "108",
+    "Gemeinde": "VILLNÖSS",
+    "Comune": "FUNES",
+    "Anprechparner/in": "Peter Pernthaler",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@villnoess.eu"
+  },
+  {
+    "undefined": "109",
+    "Gemeinde": "VINTL",
+    "Comune": "VANDOIES",
+    "Anprechparner/in": "Walter Huber",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "walter.huber@vintl.eu"
+  },
+  {
+    "undefined": "110",
+    "Gemeinde": "VÖLS",
+    "Comune": "FIE' ALLO SCILIAR",
+    "Anprechparner/in": "Othmar Stampfer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.voels.bz.it"
+  },
+  {
+    "undefined": "111",
+    "Gemeinde": "VÖRAN",
+    "Comune": "VERANO",
+    "Anprechparner/in": "Thomas Egger",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "thomas.egger@gemeinde.voeran.bz.it"
+  },
+  {
+    "undefined": "112",
+    "Gemeinde": "WAIDBRUCK",
+    "Comune": "PONTE GARDENA",
+    "Anprechparner/in": "Philipp Kerschbaumer",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "philipp.kerschbaumer@waidbruck.it"
+  },
+  {
+    "undefined": "113",
+    "Gemeinde": "WELSBERG-TAISTEN",
+    "Comune": "MONGUELFO-TESIDO",
+    "Anprechparner/in": "Dominik Oberstaller ",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "dominik.oberstaller@welsberg-taisten.eu"
+  },
+  {
+    "undefined": "114",
+    "Gemeinde": "WELSCHNOFEN",
+    "Comune": "NOVA LEVANTE",
+    "Anprechparner/in": "Markus Dejori",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "info@gemeinde.welschnofen.bz.it"
+  },
+  {
+    "undefined": "115",
+    "Gemeinde": "WENGEN",
+    "Comune": "LA VALLE",
+    "Anprechparner/in": "Angel Miribung",
+    "Funktion": "Bürgermeister",
+    "E-Mail": "angel.miribung@laval.it"
+  },
+  {
+    "undefined": "116",
+    "Gemeinde": "WOLKENSTEIN IN GRÖDEN",
+    "Comune": "SELVA DI VAL GARDENA",
+    "Anprechparner/in": "Rolando Demetz und Ernest Cuccarollo ",
+    "Funktion": "Bürgermeister / Gemeindereferent ",
+    "E-Mail": "ernestderio.cuccarollo@selva.eu"
+  }
+]

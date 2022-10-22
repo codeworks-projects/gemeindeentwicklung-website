@@ -7,18 +7,18 @@ export default {
   props: {
     text: {
       type: String,
-      default: ''
+      default: '',
     },
     required: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 }
 </script>
 
 <style lang="postcss" scoped>
 label {
-  @apply block text-sm text-black mb-1;
+  @apply block text-sm text-white mb-2;
 }
 </style>
