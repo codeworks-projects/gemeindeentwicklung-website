@@ -514,21 +514,19 @@ h2 {
         @apply inline-block w-1/3 px-5 text-center text-white;
 
         & .image {
-          @apply relative bg-center bg-no-repeat mx-auto;
+          @apply relative bg-center bg-no-repeat mx-auto rounded-full;
 
           width: 100px;
           height: 100px;
-          border-radius: 50%;
           background-color: #53c7a8;
           background-size: 60% auto;
 
           & .number {
-            @apply absolute -bottom-2 right-2 bg-yellow text-primary text-center;
+            @apply absolute -bottom-2 right-2 bg-yellow text-primary text-center rounded-full;
 
             width: 30px;
             height: 30px;
             line-height: 30px;
-            border-radius: 50%;
           }
         }
 
