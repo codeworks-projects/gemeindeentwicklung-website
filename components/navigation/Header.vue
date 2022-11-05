@@ -16,6 +16,11 @@
           @click="changeLanguage('it')"
           >{{ isMobile ? 'it' : 'ita' }}</span
         >
+        <span
+          :class="{ lang: true, current: locale === 'lad' }"
+          @click="changeLanguage('lad')"
+          >{{ isMobile ? 'la' : 'lad' }}</span
+        >
       </div>
       <div v-if="isMobile" class="line"></div>
     </header>

@@ -1,27 +1,23 @@
 {
   "autonomousProvince": "Autonome Provinz Bozen - Südtirol",
-  "nowJoin": "Jetzt einbringen",
+  "nowJoin": "Sei dabei",
   "project": "Project",
   "strongPoints": "Schwerpunkte",
   "howItWorks": "Wie funktioniert's",
   "faq": "Faq",
   "introText": "Gestalte Zukunft mit",
-  "introDesc": "Gemeindeentwicklungsprogramm: Gemeinsam mit dir wollen wir die Lebensqualität in den Gemeinden Südtirols verbessern.",
-  "goIn": "Bring dich ein",
-  "introExtendedDescPartOne": "Das Gemeindeentwicklungsprogramm Raum und Landschaft beinhaltet die Vorhaben und Ziele für eine nachhaltige, in die Zukunft orientierte Entwicklung der Gemeinde. Es ist ein übergeordnetes Planungsinstrument und Voraussetzung für den Gemeindeplan für Raum und Landschaft. Es gilt, die Balance zwischen der freien Landschaft und dem  besiedelten Raum zu halten. Daraus ergibt sich die Abgrenzung des Siedlungsraumes.",
-  "introExtendedDescPartTwo": "Die Initiative für das Gemeindeentwicklungsprogramm liegt beim Gemeinderat. Er beschließt den Start der Arbeiten und legt einen überschaubaren Zeitrahmen (1-2 Jahre) für die Erstellung fest.",
+  "introDesc": "Gemeindeentwicklungsprogramm: Gemeinsam die Lebensqualität in unseren Gemeinden verbessern.",
+  "goIn": "Sei dabei",
+  "introExtendedDescPartOne": "Im Gemeindeentwicklungsprogramm Raum und Landschaft stellt jede Gemeinde die Weichen für ihre Entwicklung.\nEs geht um unsere nachhaltige Lebensqualität, Wohnen, Arbeiten und Lernen, Wachsen und Älter werden, sich Bewegen, Natur und Landschaft erhalten und erleben.",
+  "introExtendedDescPartTwo": "Die Zuständigkeit für das Gemeindeentwicklungsprogramm liegt beim Gemeinderat. Er nimmt die Arbeit auf, organisiert die Beteiligung und beschließt das Programm.",
   "learnMoreAboutProject": "Mehr zum project erfahren",
   "featuresTitle": "Inhalte und Handlungsschwerpunkte",
-  "featuresDesc": "Lorem ipsum dolor sit met consectetur anean dolor",
-  "explanationTitle": "So funktioniert’s",
-  "explanationDesc": "Lorem epsom dolor sit met consectetur",
+  "explanationTitle": "Gemeinsam gestalten",
   "moreQuestions": "Noch Fragen? Wir beantworten sie gerne!",
-  "moreQuestionsDesc": "Lorem epsom dolor sit met consectetur",
+  "moreQuestionsDesc": "Allerlei Wissenswertes rund um das Gemeindeentwicklungsprojekt",
   "moreQuestionsAsk": "Noch weitere Fragen?",
   "joinToday": "Melde dich gerne",
-  "mapTitle": "Ist deine Gemeinde schon aktiv?",
-  "mapDesc": "Lorem epsom dolor sit met consectetur",
-  "contactTitle": "Gemeinsam schaffen wir mehr. Gemeinsam entstehen die besten Ideen.",
+  "contactTitle": "Kontaktiere deine Gemeinde. Gemeinsam schaffen wir mehr.",
   "contactDesc": "Du kennst deinen Ort und weißt um die Bedürfnisse und Realitäten von Jung und Alt. Dieses Wissen muss in die Fachexpertise einfließen. Bring dich mit ein!",
   "reason": "Anrede",
   "required": "Pflichtfeld",
@@ -34,30 +30,43 @@
   "terms": "Datenschutzerklärung",
   "submittedFormConfirmation": "Sie sind anmelded",
   "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
-  "mobilityFeatureTitle": "Mobilität und Erreichbarkeit",
-  "mobilityFeatureDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
-  "natureFeatureTitle": "Festlegung öffentlicher Flächen und Dienste",
-  "natureFeatureDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.",
-  "buildingFeatureTitle": "Um- und Wiedernutzung leerstehender Gebäude",
-  "buildingFeatureDesc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient edit montes, nascetur ridic.",
+  "natureFeatureTitle": "Lebendige und lebenswerte Dörfer und Städte",
+  "natureFeatureDesc": "Wohnen, Arbeiten und Lernen, neues Leben für leerstehende Gebäude, Nahversorgung, Naherholung, öffentliche Freiräume und Dienste.",
+  "buildingFeatureTitle": "Für ein gutes Miteinander",
+  "buildingFeatureDesc": "Bildung und Kultur, Gesundheit und Soziales, Sicherheit im öffentlichen Raum.",
+  "mobilityFeatureTitle": "Mobilität und Infrastrukturen",
+  "mobilityFeatureDesc": "Alternativen zum motorisierenden Individualverkehr, Erreichbarkeit, Wasser- und Energieversorgung, Kommunikationsnetze.",
   "explanations": {
     "one": {
-      "title": "Gründung einer Kerngruppe",
-      "desc": "Lorem ipsum dolor sit met connect ansan dolor est amen consectetur anean dolor. Edit anean dolor est amen anean."
+      "title": "Deine Expertise als Bürger:in",
+      "desc": "Du kennst deinen Ort und die Bedürfnisse und Realitäten von Jung und Alt, die Notwendigkeiten bezüglich Bildung, Freizeit, Mobilität, Gesundheit, Soziales, uvm.",
+      "secDesc": "Dein Wissen ist eine Grundlage für die Zukunftsplanung."
     },
     "two": {
-      "title": "Programmentwurf",
-      "desc": "Lorem ipsum dolor sit met connect ansan dolor est amen consectetur anean dolor. Edit anean dolor est amen anean."
-    },
-    "three": {
-      "title": "Genehmigungsverfahren",
-      "desc": "Lorem ipsum dolor sit met connect ansan dolor est amen consectetur anean dolor. Edit anean dolor est amen anean."
+      "title": "Die Fachexpertise von Techniker:innen",
+      "desc": "Die Techniker:innen erarbeiten die notwendigen Planungen. Sie müssen sich mit den Bürgern austauschen."
     }
   },
   "faqs": {
-    "first": {
-      "title": "TITLE",
-      "desc": "VALUE"
+    "one": {
+      "title": "Wie kann ich mich an der Ausarbeitung des Gemeindeentwicklungsprogramms in meiner Gemeinde beteiligen?",
+      "desc": "Verwende das untenstehende Formular und wende dich direkt an deine Gemeinde."
+    },
+    "two": {
+      "title": "Warum ist es wichtig, dass sich die Bürgerinnen und Bürger beteiligen?",
+      "desc": "Die Bürgerinnen und Bürger kennen den Ort, in welchem sie leben, sie kennen die Bedürfnisse und Realitäten von Jung und Alt, die Notwendigkeiten bzgl. Bildung, Arbeit, Freizeit, Mobilität, Gesundheit, Soziales usw.\nDas „Landesgesetz für Raum und Landschaft“ sieht vor, dass das Gemeindeentwicklungsprogramm im Rahmen eines öffentlichen Verfahrens erstellt werden soll, welches die Beteiligung von Bürgerinnen und Bürgern, Verbänden sowie Interessengruppen ermöglicht."
+    },
+    "three": {
+      "title": "In welcher Form findet die Bürgerbeteiligung statt?",
+      "desc": "Es gibt verschiedene Möglichkeiten und Formen, die Bürgerbeteiligung zu fördern. Dabei kann es sich zum Beispiel um öffentliche Veranstaltungen, runde Tische, Workshops oder digitale Plattformen handeln. Die Wahl der möglichen Form obliegt der Gemeinde."
+    },
+    "four": {
+      "title": "Was beinhaltet das Gemeindeentwicklungsprogramm?",
+      "desc": "Das Gemeindeentwicklungsprogramm definiert Projekte und Ziele für eine nachhaltige zukünftige Entwicklung deiner Gemeinde. Für weitere Informationen wende dich direkt an deine Gemeinde."
+    },
+    "five": {
+      "title": "Welche Dauer hat das Gemeindeentwicklungsprogramm?",
+      "desc": "Das Gemeindeentwicklungsprogramm hat eine Gültigkeit von mindestens 10 Jahren. Die Gemeinden können jedoch eine längere Laufzeit festlegen."
     }
   },
   "entityName": "Autonome Provinz Bozen-Südtirol | Ressort für Raumentwicklung, Landschaft und Landesdenkmalamt."

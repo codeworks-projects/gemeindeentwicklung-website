@@ -3,7 +3,9 @@
     <div class="center">
       <p>
         @ {{ $t('entityName') }} .
-        <a :href="'/terms.pdf'" target="_blank">{{ $t('terms') }}</a>
+        <a href="https://www.provinz.bz.it/de/privacy.asp" target="_blank">{{
+          $t('terms')
+        }}</a>
       </p>
     </div>
   </footer>

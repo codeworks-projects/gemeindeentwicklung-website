@@ -14,9 +14,7 @@
       </div>
     </div>
     <div ref="content" class="content">
-      <div class="data">
-        <slot />
-      </div>
+      <div class="data"><slot /></div>
     </div>
   </div>
 </template>
@@ -95,9 +93,9 @@ export default {
     @apply border-t border-placeholder py-6 font-bold;
 
     & .text {
-      @apply inline-block text-base leading-none text-black uppercase truncate;
+      @apply inline-block text-base text-black uppercase;
 
-      max-width: calc(100% - 60px);
+      max-width: 800px;
     }
 
     & .arrow {
@@ -124,6 +122,12 @@ export default {
 
     & .data {
       @apply pb-6;
+
+      max-width: 800px;
+
+      & p {
+        @apply whitespace-pre-wrap;
+      }
     }
   }
 
@@ -141,6 +145,16 @@ export default {
 
   &.disabled {
     @apply pointer-events-none opacity-25;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .accordion {
+    & .title {
+      & .text {
+        max-width: calc(100% - 60px);
+      }
+    }
   }
 }
 </style>

@@ -25,7 +25,7 @@
             </a>
           </div>
           <div class="col quote-ct">
-            <Icon :name="topQuoteIconUrl" class="quote" />
+            <Icon :name="topQuoteIcoName" class="quote" />
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
     <section id="features" class="features">
       <div class="center">
         <h2>{{ $t('featuresTitle') }}</h2>
-        <p class="section-desc">{{ $t('featuresDesc') }}</p>
+        <!--<p class="section-desc">{{ $t('featuresDesc') }}</p>-->
         <div class="features-gallery">
           <div v-for="feature in features" :key="feature.title" class="feature">
             <div
@@ -51,9 +51,9 @@
     <section id="explanation" class="explanations bg-primary">
       <div class="center">
         <h2 class="color-inverted centered">{{ $t('explanationTitle') }}</h2>
-        <p class="section-desc color-inverted centered">
+        <!--<p class="section-desc color-inverted centered">
           {{ $t('explanationDesc') }}
-        </p>
+        </p>-->
         <div class="explanations-ct">
           <div
             class="inner-slide"
@@ -74,6 +74,7 @@
               </div>
               <h3 class="title">{{ explanation.title }}</h3>
               <p class="desc">{{ explanation.desc }}</p>
+              <p class="desc second">{{ explanation.secDesc }}</p>
             </div>
           </div>
         </div>
@@ -113,7 +114,7 @@
             :title="faq.title"
             class="faq"
           >
-            {{ faq.desc }}
+            <p>{{ faq.desc }}</p>
           </Accordion>
         </div>
         <div class="info-action">
@@ -127,20 +128,21 @@
       </div>
     </section>
 
-    <section class="map">
+    <!-- <section class="map">
       <h2 class="centered">{{ $t('mapTitle') }}</h2>
       <p class="section-desc centered">
         {{ $t('mapDesc') }}
       </p>
-      <!-- TODO: add here map -->
-    </section>
+      TODO: add here map
+    </section> -->
 
     <section id="contact" class="contact-form bg-primary">
-      <div class="center">
+      <div class="center relative">
         <h2 class="color-inverted">{{ $t('contactTitle') }}</h2>
         <p class="section-desc color-inverted">
           {{ $t('contactDesc') }}
         </p>
+        <div class="badge" />
         <div class="form-ct">
           <div class="row">
             <div class="col">
@@ -239,7 +241,12 @@ import locations from '@/data/locations.json'
 export default {
   data() {
     return {
-      galleryPhotos: [], // TODO
+      galleryPhotos: [
+        '/image/home/1.jpeg',
+        '/image/home/2.jpeg',
+        '/image/home/3.jpeg',
+        '/image/home/4.jpeg',
+      ],
       explanationsStepIndex: 0,
       contactForm: {},
       submittedContactForm: false,
@@ -251,19 +258,19 @@ export default {
     features() {
       return [
         {
-          image: '/image/features/fist.jpg',
-          title: this.$t('mobilityFeatureTitle'),
-          desc: this.$t('mobilityFeatureDesc'),
-        },
-        {
-          image: '/image/features/second.jpg',
+          image: '/image/features/first.jpeg',
           title: this.$t('natureFeatureTitle'),
           desc: this.$t('natureFeatureDesc'),
         },
         {
-          image: '/image/features/third.jpg',
+          image: '/image/features/second.jpeg',
           title: this.$t('buildingFeatureTitle'),
           desc: this.$t('buildingFeatureDesc'),
+        },
+        {
+          image: '/image/features/third.jpeg',
+          title: this.$t('mobilityFeatureTitle'),
+          desc: this.$t('mobilityFeatureDesc'),
         },
       ]
     },
@@ -274,16 +281,12 @@ export default {
           image: '/image/explanations/one.svg',
           title: this.$t('explanations.one.title'),
           desc: this.$t('explanations.one.desc'),
+          secDesc: this.$t('explanations.one.secDesc'),
         },
         {
           image: '/image/explanations/two.svg',
           title: this.$t('explanations.two.title'),
           desc: this.$t('explanations.two.desc'),
-        },
-        {
-          image: '/image/explanations/three.svg',
-          title: this.$t('explanations.three.title'),
-          desc: this.$t('explanations.three.desc'),
         },
       ]
     },
@@ -313,8 +316,8 @@ export default {
       ]
     },
 
-    topQuoteIconUrl() {
-      return '/image/home-quote/' + this.$i18n.locale + '.svg'
+    topQuoteIcoName() {
+      return 'home-quote-' + this.$i18n.locale
     },
 
     contactOptions() {
@@ -452,7 +455,7 @@ h2 {
         @apply mt-12;
 
         & .extended-desc {
-          @apply block text-base mt-5;
+          @apply block text-base mt-5 whitespace-pre-wrap;
         }
       }
 
@@ -462,8 +465,8 @@ h2 {
         & .quote {
           @apply absolute right-0;
 
-          width: 300px;
-          bottom: -150px;
+          width: 400px;
+          bottom: -200px;
         }
       }
     }
@@ -475,7 +478,7 @@ h2 {
     @apply flex gap-5 mt-10;
 
     & .feature {
-      @apply flex-grow;
+      @apply flex-1;
 
       & .image {
         @apply bg-placeholder bg-cover bg-center;
@@ -499,7 +502,7 @@ h2 {
     @apply mt-12 overflow-hidden;
 
     & .inner-slide {
-      @apply transition;
+      @apply flex items-start justify-center transition;
 
       white-space: nowrap;
 
@@ -535,13 +538,17 @@ h2 {
           @apply text-base mt-1;
 
           white-space: initial;
+
+          &.second {
+            @apply mt-3;
+          }
         }
       }
     }
   }
 
   & .explanation-controls {
-    @apply mt-20;
+    @apply hidden mt-20;
 
     & .progress-bar {
       @apply bg-white bg-opacity-50;
@@ -590,6 +597,12 @@ h2 {
 }
 
 .contact-form {
+  & .badge {
+    @apply absolute -top-12 right-0 w-36 h-36 bg-center bg-contain bg-no-repeat;
+
+    background-image: url(~assets/icon/everyday-for-future.svg?inline);
+  }
+
   & .form-ct {
     @apply mt-12;
 
@@ -652,8 +665,8 @@ h2 {
 
         &.quote-ct {
           & .quote {
-            width: 280px;
-            bottom: -320px;
+            width: 90vw;
+            bottom: -85vw;
           }
         }
       }
@@ -671,14 +684,24 @@ h2 {
   .explanations {
     & .explanations-ct {
       & .inner-slide {
+        @apply block;
+
         & .explanation {
           @apply w-full;
         }
       }
     }
+
+    & .explanation-controls {
+      @apply block;
+    }
   }
 
   .contact-form {
+    & .badge {
+      @apply hidden;
+    }
+
     & .form-ct {
       & .row {
         @apply flex-col gap-0 mb-0;
