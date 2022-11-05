@@ -518,9 +518,9 @@ h2 {
 
           width: 100px;
           height: 100px;
+          border-radius: 50%;
           background-color: #53c7a8;
           background-size: 60% auto;
-          border-radius: 50%;
 
           & .number {
             @apply absolute -bottom-2 right-2 bg-yellow text-primary text-center;
