@@ -210,7 +210,11 @@
           <Checkbox v-model="contactForm.acceptTerms">
             <i18n path="acceptTerms" tag="span">
               <template #terms>
-                <a :href="'/terms.pdf'" target="_blank">{{ $t('terms') }}</a>
+                <a
+                  href="ttps://www.provinz.bz.it/de/privacy.asp"
+                  target="_blank"
+                  >{{ $t('terms') }}</a
+                >
               </template>
             </i18n>
           </Checkbox>
@@ -389,7 +393,7 @@ section {
 }
 
 h2 {
-  @apply block text-3xl font-bold;
+  @apply block text-3xl font-bold whitespace-pre-wrap;
 
   max-width: 500px;
 

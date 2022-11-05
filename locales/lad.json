@@ -1,1 +1,73 @@
-{}
+{
+  "autonomousProvince": "Provinzia autonoma de Balsan - Südtirol",
+  "nowJoin": "Fá para",
+  "project": "Proiet",
+  "strongPoints": "Aspec prinzipai",
+  "howItWorks": "Co fejon pa?",
+  "faq": "Faq",
+  "introText": "Dëida proieté le dagní",
+  "introDesc": "Program de svilup comunal: mioré deboriada la cualité de vita de nüsc comuns.",
+  "goIn": "Fá para",
+  "introExtendedDescPartOne": "Tl program de svilup comunal Teritore y contrada definësc vigni comun le tru de so svilup.\nAra nen vá de nosta cualité de vita sostignibla, abité, lauré y imparé, crësce y gní vedli, se möie, vire y sconé la natöra.",
+  "introExtendedDescPartTwo": "La competënza dl Program de svilup comunal é dl Consëi comunal. Al tol sö le laur, organisëia la partezipaziun y tol na dezijiun sön le program.",
+  "learnMoreAboutProject": "Deplü informaziuns sön le proiet",
+  "featuresTitle": "Contignüs y aspec prinzipai",
+  "explanationTitle": "PROIETÉ DEBORIADA\nAl vëgn damané:",
+  "moreQuestions": "Ciamó domandes?\nI respognun ion!",
+  "moreQuestionsDesc": "De vigni sort de informaziuns sön le proiet de svilup comunal.",
+  "moreQuestionsAsk": "Ciamó domandes?",
+  "joinToday": "Lascete a d’intëne",
+  "contactTitle": "I sciafiun da arjunje deplü deboriada.\nLes mius idees nasc sce i se dun da fá deboriada.",
+  "contactDesc": "Tö conësces to paisc y tö sas ciügn che é i bojëgns y cara che é la situaziun reala dla jonëza y dla jënt atempada. Chësc savëi mëss rové ite pro les conescënzes tecniches. Fá para!",
+  "reason": "Titul",
+  "required": "Ciamp obligatore",
+  "name": "Inom",
+  "surname": "Cognom",
+  "email": "E-Mail",
+  "phone": "Telefon",
+  "leavingLocation": "Comun olache te oresses fá para",
+  "acceptTerms": "Accetto i {terms}",
+  "terms": "Termini e Privacy",
+  "submittedFormConfirmation": "Messaggio inviato",
+  "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
+  "natureFeatureTitle": "Paisc y cités vis olache al se paia da vire",
+  "natureFeatureDesc": "Abité, lauré y imparé, vita nöia por frabicac öc, fornidöra locala, recreaziun tla vijinanza, sorvisc y lercs lëdies publics.",
+  "buildingFeatureTitle": "Por vire bun adöm",
+  "buildingFeatureDesc": "Formaziun y cultura, sanité y sozial, segurëza tl raiun publich.",
+  "mobilityFeatureTitle": "Mobilité y infrastrotöres",
+  "mobilityFeatureDesc": "Alternatives al trafich individual motorisé, azessibilité, fornidöra de ega y energia, rëis de comunicaziun.",
+  "explanations": {
+    "one": {
+      "title": "To savëi sciöche zitadin y zitadina",
+      "desc": "Tö conësces to paisc y sü bojëgns y la situaziun reala dla jonëza y dles porsones atempades, i bojëgns por ci che reverda la formaziun, le tëmp lëde, la mobilité, la sanité, le sozial y i.i.",
+      "secDesc": "To savëi é la basa por proieté le dagní."
+    },
+    "two": {
+      "title": "Le savëi di tecnics y dles tecniches",
+      "desc": "I tecnics y les tecniches laora fora i planns che vá debojëgn. Ai mëss se baraté fora cun i zitadins y les zitadines."
+    }
+  },
+  "faqs": {
+    "one": {
+      "title": "Co feji pa da fá para al’elaboraziun dl Program de svilup comunal te mi comun?",
+      "desc": "Scrí fora le formular dessot y contatëia diretamënter to Comun."
+    },
+    "two": {
+      "title": "Ciodí él pa important che les zitadines y i zitadins fejes para?",
+      "desc": "Les zitadines y zitadins conësc le paisc olache ai vir, ai conësc i bojëgns y la situaziun reala dla jonëza y dla jënt atempada, i bojëgn por ci che reverda la formaziun, le laur, le tëmp lëde, la mobilité, la sanité, le sozial y i.i.\nLa “Lege provinziala Teritore y contrada” prevëiga che le Program de svilup comunal vëgnes lauré fora tl cheder de na prozedöra publica, che conzedes la partezipaziun de zitadines y zitadins, lies y grups d’interes."
+    },
+    "three": {
+      "title": "Co vëgn pa a se le dé la partezipaziun dles zitadines y di zitadins??",
+      "desc": "Al é poscibilités y formes desvalies de partezipaziun di zitadins y dles zitadines. Al pó por ejëmpl gní organisé manifestaziuns publiches, mëses torones, workshop o plataformes digitales. La forma vëgn chirida fora dal Comun."
+    },
+    "four": {
+      "title": "Ci él pa tl Program de svilup comunal?",
+      "desc": "Tl Program de svilup comunal vëgnel definí i proiec y i obietifs por n svilup sostignibl de to comun tl dagní. De plü informaziuns é da ciafé te to Comun."
+    },
+    "five": {
+      "title": "Tan dî döra pa le program de svilup comunal?",
+      "desc": "Le program de svilup comunal vel altamo 10 agn. I Comuns pó arlungé le tëmp."
+    }
+  },
+  "entityName": "Provinzia autonoma de Balsan-Südtirol. Departimënt Svilup dl teritore, Contrada y Bëgns culturai"
+}

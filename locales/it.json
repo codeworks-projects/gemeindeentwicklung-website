@@ -1,1 +1,73 @@
-{}
+{
+  "autonomousProvince": "Provincia autonoma di Bolzano - Alto Adige",
+  "nowJoin": "Partecipa",
+  "project": "Progetto",
+  "strongPoints": "Temi",
+  "howItWorks": "Come funziona",
+  "faq": "Faq",
+  "introText": "Progettiamo insieme il futuro",
+  "introDesc": "Programma di sviluppo comunale: per migliorare la qualità di vita nei nostri comuni.",
+  "goIn": "Partecipa",
+  "introExtendedDescPartOne": "Con il Programma di sviluppo comunale per il territorio e il paesaggio ogni comune getta le basi per il proprio futuro.\nL’obiettivo è raggiungere una qualità di vita sostenibile per tutti: abitare, lavorare e studiare, crescere e invecchiare, muoversi, vivere e tutelare la natura e il paesaggio.",
+  "introExtendedDescPartTwo": "L’iniziativa per il Programma di sviluppo comunale spetta al Consiglio comunale, che definisce l’avvio dei lavori, organizza la partecipazione della popolazione e stabilisce le misure da attuare.",
+  "learnMoreAboutProject": "Scopri di più sul progetto",
+  "featuresTitle": "Temi e contenuti",
+  "explanationTitle": "Progettare insieme\nCosa serve:",
+  "moreQuestions": "Hai ancora domande?\nEcco le risposte.",
+  "moreQuestionsDesc": "Dettagli e informazioni sul Programma di sviluppo comunale",
+  "moreQuestionsAsk": "Hai altre domande?",
+  "joinToday": "Contattaci",
+  "contactTitle": "Contatta il tuo comune.\nPerché insieme si può fare di più.",
+  "contactDesc": "Nessuno meglio di te conosce il luogo in cui vivi, le esigenze e la realtà dell’intera popolazione. Conoscenze che sono indispensabili per l’elaborazione tecnica degli interventi. Partecipa anche tu!",
+  "reason": "Titolo",
+  "required": "campo obbligatorio",
+  "name": "Nome",
+  "surname": "Cognome",
+  "email": "E-Mail",
+  "phone": "Telefono",
+  "leavingLocation": "Comune in cui vuoi dire la tua",
+  "acceptTerms": "Accetto i {terms}",
+  "terms": "Termini",
+  "submittedFormConfirmation": "Messaggio inviato",
+  "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
+  "natureFeatureTitle": "Paesi e città vivi e vivibili",
+  "natureFeatureDesc": "Abitare, lavorare e studiare, riqualificazione di edifici abbandonati, servizi di vicinato, opportunità ricreative sul territorio, spazi e servizi pubblici.",
+  "buildingFeatureTitle": "Per comunità solidali",
+  "buildingFeatureDesc": "Istruzione e cultura, sanità e servizi sociali, sicurezza nei luoghi pubblici.",
+  "mobilityFeatureTitle": "Mobilità e infrastrutture",
+  "mobilityFeatureDesc": "Alternative al traffico individuale motorizzato, accessibilità, approvvigionamento idrico ed energetico, reti di comunicazione.",
+  "explanations": {
+    "one": {
+      "title": "Le esperienze di ogni cittadina e cittadino",
+      "desc": "Nessuno meglio di te conosce il luogo in cui vivi, le esigenze e la situazione reale di giovani e anziani, le necessità in materia di istruzione, tempo libero, mobilità, salute, servizi sociali, ecc.",
+      "secDesc": "Le tue conoscenze sono la base per progettare il futuro."
+    },
+    "two": {
+      "title": "Le competenze tecniche di esperte ed esperti",
+      "desc": "Confrontandosi con la popolazione, esperte ed esperti elaborano i progetti necessari."
+    }
+  },
+  "faqs": {
+    "one": {
+      "title": "Come posso fare a partecipare all’elaborazione del Programma di sviluppo comunale nel mio Comune?",
+      "desc": "Contatta il Comune utilizzando il modulo qui sotto."
+    },
+    "two": {
+      "title": "Perché è importante che anche le cittadine e i cittadini partecipino?",
+      "desc": "Le cittadine e i cittadini conoscono il luogo in cui vivono, conoscono i bisogni di giovani e anziani, le necessità in materia di formazione, lavoro, tempo libero, mobilità, salute, affari sociali, ecc.\nLa legge provinciale “Territorio e paesaggio” prevede che il Programma di sviluppo comunale sia elaborato nel quadro di un procedimento pubblico, garantendo la partecipazione delle cittadine e dei cittadini, delle associazioni e dei gruppi di interesse."
+    },
+    "three": {
+      "title": "Come avviene la partecipazione delle cittadine e dei cittadini?",
+      "desc": "Esistono diverse possibilità e diversi metodi per favorire la partecipazione dei cittadini. Potrebbero essere, ad esempio, eventi pubblici, tavole rotonde, workshop o piattaforme digitali. La decisione sul modello da scegliere spetta al Comune."
+    },
+    "four": {
+      "title": "Quali sono i contenuti del Programma di sviluppo comunale?",
+      "desc": "Il Programma di sviluppo comunale contiene i progetti e gli obiettivi per lo sviluppo sostenibile del tuo Comune, guardando al futuro. Contatta il tuo comune per saperne di più."
+    },
+    "five": {
+      "title": "Qual è la durata del Programma di sviluppo comunale?",
+      "desc": "La validità è di almeno 10 anni, ma i comuni possono decidere per una durata maggiore."
+    }
+  },
+  "entityName": "Provincia autonoma di Bolzano - Alto Adige. Dipartimento Sviluppo del territorio, Paesaggio e Soprintendenza provinciale ai beni culturali."
+}

@@ -81,9 +81,12 @@ export default {
     @apply inline-block bg-primary-hover px-6 py-3 text-base font-medium cursor-pointer;
 
     & select {
-      @apply bg-transparent text-white text-base font-medium;
+      @apply bg-transparent text-white text-base font-medium bg-no-repeat cursor-pointer;
 
       -webkit-appearance: none;
+      background-position: 100% center;
+      background-size: 16px auto;
+      background-image: url(~assets/icon/arrow-down-yellow.svg?inline);
 
       &:focus {
         @apply outline-none;
