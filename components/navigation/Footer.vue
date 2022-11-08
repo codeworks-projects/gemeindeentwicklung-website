@@ -3,6 +3,10 @@
     <div class="center">
       <p>
         @ {{ $t('entityName') }} .
+        <a href="https://www.provinz.bz.it/de/impressum.asp" target="_blank">{{
+          $t('impressum')
+        }}</a>
+        .
         <a href="https://www.provinz.bz.it/de/privacy.asp" target="_blank">{{
           $t('terms')
         }}</a>

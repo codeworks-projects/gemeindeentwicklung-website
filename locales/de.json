@@ -1,7 +1,7 @@
 {
   "autonomousProvince": "Autonome Provinz Bozen - Südtirol",
   "nowJoin": "Sei dabei",
-  "project": "Project",
+  "project": "Projekt",
   "strongPoints": "Schwerpunkte",
   "howItWorks": "Wie funktioniert's",
   "faq": "Faq",
@@ -10,7 +10,7 @@
   "goIn": "Sei dabei",
   "introExtendedDescPartOne": "Im Gemeindeentwicklungsprogramm Raum und Landschaft stellt jede Gemeinde die Weichen für ihre Entwicklung.\nEs geht um unsere nachhaltige Lebensqualität, Wohnen, Arbeiten und Lernen, Wachsen und Älter werden, sich Bewegen, Natur und Landschaft erhalten und erleben.",
   "introExtendedDescPartTwo": "Die Zuständigkeit für das Gemeindeentwicklungsprogramm liegt beim Gemeinderat. Er nimmt die Arbeit auf, organisiert die Beteiligung und beschließt das Programm.",
-  "learnMoreAboutProject": "Mehr zum project erfahren",
+  "learnMoreAboutProject": "Mehr zum Projekt erfahren",
   "featuresTitle": "Inhalte und Handlungsschwerpunkte",
   "explanationTitle": "Gemeinsam gestalten",
   "moreQuestions": "Noch Fragen?\nWir beantworten sie gerne!",
@@ -28,6 +28,7 @@
   "leavingLocation": "Gemeinde, in der du mitwirken möchtest",
   "acceptTerms": "{terms} akzeptieren",
   "terms": "Datenschutzerklärung",
+  "pleaseAcceptTerms": "Bitte akzeptieren Sie die Bedingungen",
   "submittedFormConfirmation": "Vielen Dank für dein Interesse.",
   "submittedFormConfirmationDesc": "Deine zuständige Gemeinde wird sich bei dir melden.",
   "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
@@ -71,8 +72,10 @@
     }
   },
   "entityName": "Autonome Provinz Bozen-Südtirol | Ressort für Raumentwicklung, Landschaft und Landesdenkmalamt.",
-  "programParticipation": "Teilnahme am Gemeindeentwicklungsprogramm.",
+  "programParticipation": "Teilnahme am Gemeindeentwicklungsprogramm",
+  "seeCampaignVideo": "Schau dir das Video der Kampagne an",
   "sir": "Herr",
   "madam": "Frau",
-  "other": "Divers"
+  "other": "Divers",
+  "impressum": "Impressum"
 }

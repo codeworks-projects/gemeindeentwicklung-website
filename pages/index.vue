@@ -9,7 +9,7 @@
           <div class="details">
             <h1>{{ $t('introText') }}</h1>
             <p class="top-desc">{{ $t('introDesc') }}</p>
-            <a href="#features">
+            <a href="#contact">
               <Button :value="$t('goIn')" />
             </a>
           </div>
@@ -20,7 +20,7 @@
             <p class="extended-desc">{{ $t('introExtendedDescPartTwo') }}</p>
             <a :href="homeVideoLink" target="_blank">
               <div class="simplified-cta">
-                {{ $t('learnMoreAboutProject') }}
+                {{ $t('seeCampaignVideo') }}
               </div>
             </a>
           </div>
@@ -235,6 +235,7 @@
                 : $t('goInDesc')
             "
             :loading="isSubmittingContactForm"
+            :disabled="submittedContactForm"
             class="button"
             @click="submitContactForm"
           />
@@ -419,29 +420,42 @@ export default {
     submitContactForm() {
       this.isSubmittingContactForm = true
 
-      this.contactForm.language = this.$i18n.locale
+      const sendFormData = { ...this.contactForm }
+      sendFormData.language = this.$i18n.locale
+
       this.$axios
         .post(
           'https://import.codeworks.build/gemeindeentwicklung/sendmail.php',
           {
             t: 'bfyfdfgsjsg',
-            d: this.contactForm,
+            d: sendFormData,
           }
         )
         .then(
           (response) => {
-            if (response.data && response.data.status === 1) {
-              this.isSubmittingContactForm = false
+            this.isSubmittingContactForm = false
+            if (response.data && response.data.status === true) {
               this.submittedContactForm = true
-              this.resetFields()
+              // this.resetFields()
             } else {
               this.notifyError()
             }
           },
           () => {
+            this.isSubmittingContactForm = false
             this.notifyError()
           }
         )
+    },
+
+    resetFields() {
+      const setForm = { ...this.contactForm }
+
+      for (const [fieldId, value] of Object.entries(this.contactForm)) {
+        setForm[fieldId] = value === true ? false : ''
+      }
+
+      this.contactForm = setForm
     },
   },
 }
@@ -735,8 +749,8 @@ h2 {
 
         &.quote-ct {
           & .quote {
-            width: 90vw;
-            bottom: -85vw;
+            width: 400px;
+            bottom: -360px;
           }
         }
       }
@@ -781,6 +795,21 @@ h2 {
 
           &.mobile-hidden {
             @apply hidden;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro {
+    & .bottom {
+      & .col {
+        &.quote-ct {
+          & .quote {
+            width: 90vw;
+            bottom: -85vw;
           }
         }
       }

@@ -28,6 +28,7 @@
   "leavingLocation": "Comune in cui vuoi dire la tua",
   "acceptTerms": "Accetto i {terms}",
   "terms": "Termini",
+  "pleaseAcceptTerms": "Per piacere accetta i termini",
   "submittedFormConfirmation": "Grazie per l‘interesse.",
   "submittedFormConfirmationDesc": "Il tuo comune di riferimento ti contatterà presto.",
   "goInDesc": "e partecipa al gruppo di lavoro per il Programma di sviluppo comunale",
@@ -71,8 +72,10 @@
     }
   },
   "entityName": "Provincia autonoma di Bolzano - Alto Adige. Dipartimento Sviluppo del territorio, Paesaggio e Soprintendenza provinciale ai beni culturali.",
-  "programParticipation": "Partecipazione al Programma di sviluppo comunale.",
+  "programParticipation": "Voci sul Programma di sviluppo comunale",
+  "seeCampaignVideo": "Guarda il video della campagna",
   "sir": "Signor",
   "madam": "Signora",
-  "other": "Altro"
+  "other": "Altro",
+  "impressum": "Impressum"
 }

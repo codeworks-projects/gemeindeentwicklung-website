@@ -107,7 +107,7 @@ export default {
   }
 
   & .description {
-    @apply text-xs mt-1 lowercase;
+    @apply text-xs mt-1;
   }
 
   & > .loader-ct {

@@ -26,11 +26,12 @@
   "email": "E-Mail",
   "phone": "Telefon",
   "leavingLocation": "Comun olache te oresses fá para",
-  "acceptTerms": "Accetto i {terms}",
-  "terms": "Termini e Privacy",
-  "submittedFormConfirmation": "Vielen Dank für dein Interesse.",
-  "submittedFormConfirmationDesc": "Deine zuständige Gemeinde wird sich bei dir melden.",
-  "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
+  "acceptTerms": "I azetëii les {terms}",
+  "terms": "condiziuns y la privacy",
+  "pleaseAcceptTerms": "Azetëia prëibel les condiziuns",
+  "submittedFormConfirmation": "Dër bel giulan de to interes.",
+  "submittedFormConfirmationDesc": "To Comun se lasciará adintëne.",
+  "goInDesc": "Devënta pert dl grup por le svilup comunal",
   "natureFeatureTitle": "Paisc y cités vis olache al se paia da vire",
   "natureFeatureDesc": "Abité, lauré y imparé, vita nöia por frabicac öc, fornidöra locala, recreaziun tla vijinanza, sorvisc y lercs lëdies publics.",
   "buildingFeatureTitle": "Por vire bun adöm",
@@ -71,7 +72,10 @@
     }
   },
   "entityName": "Provinzia autonoma de Balsan-Südtirol. Departimënt Svilup dl teritore, Contrada y Bëgns culturai",
-  "sir": "Herr",
-  "madam": "Frau",
-  "other": "Divers"
+  "programParticipation": "Usc sön le program de svilup comunal",
+  "seeCampaignVideo": "Ciara le video dla campagna",
+  "sir": "Signur",
+  "madam": "Signura",
+  "other": "Divers",
+  "impressum": "Impressum"
 }

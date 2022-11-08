@@ -1,11 +1,11 @@
 export default {
   methods: {
     notifyGenericError() {
-      this.notifyError(this.$t('common.genericError'))
+      this.notifyError(this.$t('genericError'))
     },
 
     notifySavedChanges() {
-      this.notifySuccess(this.$t('common.settingsSaved'))
+      this.notifySuccess(this.$t('settingsSaved'))
     },
 
     notifyError(message) {
