@@ -19,7 +19,7 @@
   "joinToday": "Contattaci",
   "contactTitle": "Contatta il tuo comune.\nPerché insieme si può fare di più.",
   "contactDesc": "Nessuno meglio di te conosce il luogo in cui vivi, le esigenze e la realtà dell’intera popolazione. Conoscenze che sono indispensabili per l’elaborazione tecnica degli interventi. Partecipa anche tu!",
-  "reason": "Titolo",
+  "namePrefix": "Titolo",
   "required": "campo obbligatorio",
   "name": "Nome",
   "surname": "Cognome",
@@ -28,8 +28,9 @@
   "leavingLocation": "Comune in cui vuoi dire la tua",
   "acceptTerms": "Accetto i {terms}",
   "terms": "Termini",
-  "submittedFormConfirmation": "Messaggio inviato",
-  "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
+  "submittedFormConfirmation": "Grazie per l‘interesse.",
+  "submittedFormConfirmationDesc": "Il tuo comune di riferimento ti contatterà presto.",
+  "goInDesc": "e partecipa al gruppo di lavoro per il Programma di sviluppo comunale",
   "natureFeatureTitle": "Paesi e città vivi e vivibili",
   "natureFeatureDesc": "Abitare, lavorare e studiare, riqualificazione di edifici abbandonati, servizi di vicinato, opportunità ricreative sul territorio, spazi e servizi pubblici.",
   "buildingFeatureTitle": "Per comunità solidali",
@@ -69,5 +70,9 @@
       "desc": "La validità è di almeno 10 anni, ma i comuni possono decidere per una durata maggiore."
     }
   },
-  "entityName": "Provincia autonoma di Bolzano - Alto Adige. Dipartimento Sviluppo del territorio, Paesaggio e Soprintendenza provinciale ai beni culturali."
+  "entityName": "Provincia autonoma di Bolzano - Alto Adige. Dipartimento Sviluppo del territorio, Paesaggio e Soprintendenza provinciale ai beni culturali.",
+  "programParticipation": "Partecipazione al Programma di sviluppo comunale.",
+  "sir": "Signor",
+  "madam": "Signora",
+  "other": "Altro"
 }

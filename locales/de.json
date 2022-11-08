@@ -19,7 +19,7 @@
   "joinToday": "Melde dich gerne",
   "contactTitle": "Kontaktiere deine Gemeinde.\nGemeinsam schaffen wir mehr.",
   "contactDesc": "Du kennst deinen Ort und weißt um die Bedürfnisse und Realitäten von Jung und Alt. Dieses Wissen muss in die Fachexpertise einfließen. Bring dich mit ein!",
-  "reason": "Anrede",
+  "namePrefix": "Anrede",
   "required": "Pflichtfeld",
   "name": "Vorname",
   "surname": "Nachname",
@@ -28,7 +28,8 @@
   "leavingLocation": "Gemeinde, in der du mitwirken möchtest",
   "acceptTerms": "{terms} akzeptieren",
   "terms": "Datenschutzerklärung",
-  "submittedFormConfirmation": "Sie sind anmelded",
+  "submittedFormConfirmation": "Vielen Dank für dein Interesse.",
+  "submittedFormConfirmationDesc": "Deine zuständige Gemeinde wird sich bei dir melden.",
   "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
   "natureFeatureTitle": "Lebendige und lebenswerte Dörfer und Städte",
   "natureFeatureDesc": "Wohnen, Arbeiten und Lernen, neues Leben für leerstehende Gebäude, Nahversorgung, Naherholung, öffentliche Freiräume und Dienste.",
@@ -69,5 +70,9 @@
       "desc": "Das Gemeindeentwicklungsprogramm hat eine Gültigkeit von mindestens 10 Jahren. Die Gemeinden können jedoch eine längere Laufzeit festlegen."
     }
   },
-  "entityName": "Autonome Provinz Bozen-Südtirol | Ressort für Raumentwicklung, Landschaft und Landesdenkmalamt."
+  "entityName": "Autonome Provinz Bozen-Südtirol | Ressort für Raumentwicklung, Landschaft und Landesdenkmalamt.",
+  "programParticipation": "Teilnahme am Gemeindeentwicklungsprogramm.",
+  "sir": "Herr",
+  "madam": "Frau",
+  "other": "Divers"
 }

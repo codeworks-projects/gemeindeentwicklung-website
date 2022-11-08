@@ -18,7 +18,7 @@
           <div class="col extended-desc-ct">
             <p class="extended-desc">{{ $t('introExtendedDescPartOne') }}</p>
             <p class="extended-desc">{{ $t('introExtendedDescPartTwo') }}</p>
-            <a href="#features">
+            <a :href="homeVideoLink" target="_blank">
               <div class="simplified-cta">
                 {{ $t('learnMoreAboutProject') }}
               </div>
@@ -107,6 +107,11 @@
       <div class="center">
         <h2>{{ $t('moreQuestions') }}</h2>
         <p class="section-desc">{{ $t('moreQuestionsDesc') }}</p>
+        <a :href="faqVideoLink" target="_blank">
+          <div class="simplified-cta">
+            {{ $t('programParticipation') }}
+          </div>
+        </a>
         <div class="faqs-ct">
           <Accordion
             v-for="faq in faqs"
@@ -119,7 +124,7 @@
         </div>
         <div class="info-action">
           <p class="more-questions-title">{{ $t('moreQuestionsAsk') }}</p>
-          <a href="#contact">
+          <a :href="'mailto:' + emailContactAddress">
             <div class="simplified-cta">
               {{ $t('joinToday') }}
             </div>
@@ -147,9 +152,9 @@
           <div class="row">
             <div class="col">
               <Select
-                v-model="contactForm.reason"
-                :options="contactOptions"
-                :label="$t('reason')"
+                v-model="contactForm.namePrefix"
+                :options="namePrefixes"
+                :label="$t('namePrefix')"
                 aspect="fill"
                 required
               />
@@ -211,7 +216,7 @@
             <i18n path="acceptTerms" tag="span">
               <template #terms>
                 <a
-                  href="ttps://www.provinz.bz.it/de/privacy.asp"
+                  href="https://www.provinz.bz.it/de/privacy.asp"
                   target="_blank"
                   >{{ $t('terms') }}</a
                 >
@@ -324,8 +329,21 @@ export default {
       return 'home-quote-' + this.$i18n.locale
     },
 
-    contactOptions() {
-      return [] // TODO
+    namePrefixes() {
+      return [
+        {
+          name: this.$t('sir'),
+          value: 'Sig.',
+        },
+        {
+          name: this.$t('madam'),
+          value: 'Sigra.',
+        },
+        {
+          name: this.$t('other'),
+          value: 'Altro.',
+        },
+      ]
     },
 
     locationsList() {
@@ -345,6 +363,33 @@ export default {
 
     explanationLength() {
       return 100 / this.explanations.length
+    },
+
+    homeVideoLink() {
+      switch (this.$i18n.locale) {
+        case 'it':
+          return 'https://youtu.be/6p_7Wh5HVsk'
+      }
+
+      return 'https://youtu.be/l08dol0aSrI'
+    },
+
+    faqVideoLink() {
+      switch (this.$i18n.locale) {
+        case 'it':
+          return 'https://youtu.be/9Y3IGZBXOm4'
+      }
+
+      return 'https://youtu.be/w43n1akmHHo'
+    },
+
+    emailContactAddress() {
+      switch (this.$i18n.locale) {
+        case 'it':
+          return 'territorio.paesaggio.beniculturali@provincia.bz.it'
+      }
+
+      return 'raum.landschaft.denkmalpflege@provinz.bz.it'
     },
   },
 
@@ -373,7 +418,30 @@ export default {
 
     submitContactForm() {
       this.isSubmittingContactForm = true
-      // TODO
+
+      this.contactForm.language = this.$i18n.locale
+      this.$axios
+        .post(
+          'https://import.codeworks.build/gemeindeentwicklung/sendmail.php',
+          {
+            t: 'bfyfdfgsjsg',
+            d: this.contactForm,
+          }
+        )
+        .then(
+          (response) => {
+            if (response.data && response.data.status === 1) {
+              this.isSubmittingContactForm = false
+              this.submittedContactForm = true
+              this.resetFields()
+            } else {
+              this.notifyError()
+            }
+          },
+          () => {
+            this.notifyError()
+          }
+        )
     },
   },
 }

@@ -19,7 +19,7 @@
   "joinToday": "Lascete a d’intëne",
   "contactTitle": "I sciafiun da arjunje deplü deboriada.\nLes mius idees nasc sce i se dun da fá deboriada.",
   "contactDesc": "Tö conësces to paisc y tö sas ciügn che é i bojëgns y cara che é la situaziun reala dla jonëza y dla jënt atempada. Chësc savëi mëss rové ite pro les conescënzes tecniches. Fá para!",
-  "reason": "Titul",
+  "namePrefix": "Titul",
   "required": "Ciamp obligatore",
   "name": "Inom",
   "surname": "Cognom",
@@ -28,7 +28,8 @@
   "leavingLocation": "Comun olache te oresses fá para",
   "acceptTerms": "Accetto i {terms}",
   "terms": "Termini e Privacy",
-  "submittedFormConfirmation": "Messaggio inviato",
+  "submittedFormConfirmation": "Vielen Dank für dein Interesse.",
+  "submittedFormConfirmationDesc": "Deine zuständige Gemeinde wird sich bei dir melden.",
   "goInDesc": "und werde Teil der Kerngruppe für Gemeindeentwicklung",
   "natureFeatureTitle": "Paisc y cités vis olache al se paia da vire",
   "natureFeatureDesc": "Abité, lauré y imparé, vita nöia por frabicac öc, fornidöra locala, recreaziun tla vijinanza, sorvisc y lercs lëdies publics.",
@@ -69,5 +70,8 @@
       "desc": "Le program de svilup comunal vel altamo 10 agn. I Comuns pó arlungé le tëmp."
     }
   },
-  "entityName": "Provinzia autonoma de Balsan-Südtirol. Departimënt Svilup dl teritore, Contrada y Bëgns culturai"
+  "entityName": "Provinzia autonoma de Balsan-Südtirol. Departimënt Svilup dl teritore, Contrada y Bëgns culturai",
+  "sir": "Herr",
+  "madam": "Frau",
+  "other": "Divers"
 }
