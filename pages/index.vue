@@ -246,8 +246,7 @@
 </template>
 
 <script>
-// import locations from '@/data/locations.json'
-const locations = []
+import locations from '@/data/locations.json'
 
 export default {
   data() {
@@ -412,10 +411,8 @@ export default {
       switch (this.$i18n.locale) {
         case 'it':
           return location.Comune
-        case 'de':
-          return location.Gemeinde
       }
-      return ''
+      return location.Gemeinde
     },
 
     submitContactForm() {
