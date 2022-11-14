@@ -30,6 +30,218 @@
         </div>
       </div>
     </section>
+
+    <section id="features" class="features">
+      <div class="center">
+        <h2>{{ $t('featuresTitle') }}</h2>
+        <!--<p class="section-desc">{{ $t('featuresDesc') }}</p>-->
+        <div class="features-gallery">
+          <div v-for="feature in features" :key="feature.title" class="feature">
+            <div
+              class="image"
+              :style="{ backgroundImage: 'url(' + feature.image + ')' }"
+            ></div>
+            <h3 class="title">{{ feature.title }}</h3>
+            <p class="desc">{{ feature.desc }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explanation" class="explanations bg-primary">
+      <div class="center">
+        <h2 class="color-inverted centered">{{ $t('explanationTitle') }}</h2>
+        <!--<p class="section-desc color-inverted centered">
+          {{ $t('explanationDesc') }}
+        </p>-->
+        <div class="explanations-ct">
+          <div
+            class="inner-slide"
+            :style="{
+              transform: 'translateX(-' + explanationBoxTranslation + '%)',
+            }"
+          >
+            <div
+              v-for="(explanation, index) in explanations"
+              :key="explanation.title"
+              class="explanation"
+            >
+              <div
+                class="image"
+                :style="{ backgroundImage: 'url(' + explanation.image + ')' }"
+              >
+                <div class="number">{{ index + 1 }}.</div>
+              </div>
+              <h3 class="title">{{ explanation.title }}</h3>
+              <p class="desc">{{ explanation.desc }}</p>
+              <p class="desc second">{{ explanation.secDesc }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="explanation-controls">
+          <div class="progress-bar">
+            <div
+              class="inner-bar"
+              :style="{
+                width: explanationLength + '%',
+                transform:
+                  'translateX(' +
+                  explanationLength * explanationsStepIndex * 3 +
+                  '%)',
+              }"
+            ></div>
+          </div>
+          <div class="controls">
+            <div class="arrow clickable" @click="showPreviousExplanation">
+              <Icon name="arrow-left" class="ico" />
+            </div>
+            <div class="arrow clickable" @click="showNextExplanation">
+              <Icon name="arrow-right" class="ico" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faqs">
+      <div class="center">
+        <h2>{{ $t('moreQuestions') }}</h2>
+        <p class="section-desc">{{ $t('moreQuestionsDesc') }}</p>
+        <a :href="faqVideoLink" target="_blank">
+          <div class="simplified-cta">
+            {{ $t('programParticipation') }}
+          </div>
+        </a>
+        <div class="faqs-ct">
+          <Accordion
+            v-for="faq in faqs"
+            :key="faq.title"
+            :title="faq.title"
+            class="faq"
+          >
+            <p>{{ faq.desc }}</p>
+          </Accordion>
+        </div>
+        <div class="info-action">
+          <p class="more-questions-title">{{ $t('moreQuestionsAsk') }}</p>
+          <a :href="'mailto:' + emailContactAddress">
+            <div class="simplified-cta">
+              {{ $t('joinToday') }}
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="map">
+      <h2 class="centered">{{ $t('mapTitle') }}</h2>
+      <p class="section-desc centered">
+        {{ $t('mapDesc') }}
+      </p>
+      TODO: add here map
+    </section> -->
+
+    <section id="contact" class="contact-form bg-primary">
+      <div class="center relative">
+        <h2 class="color-inverted">{{ $t('contactTitle') }}</h2>
+        <p class="section-desc color-inverted">
+          {{ $t('contactDesc') }}
+        </p>
+        <div class="badge" />
+        <div class="form-ct">
+          <div class="row">
+            <div class="col">
+              <Select
+                v-model="contactForm.namePrefix"
+                :options="namePrefixes"
+                :label="$t('namePrefix')"
+                aspect="fill"
+                required
+              />
+            </div>
+            <div class="col mobile-hidden">
+              <div class="required-label">* {{ $t('required') }}</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <TextInput
+                v-model="contactForm.name"
+                :label="$t('name')"
+                aspect="fill"
+                required
+              />
+            </div>
+            <div class="col">
+              <TextInput
+                v-model="contactForm.surname"
+                :label="$t('surname')"
+                aspect="fill"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <TextInput
+                v-model="contactForm.email"
+                :label="$t('email')"
+                type="email"
+                aspect="fill"
+                required
+              />
+            </div>
+            <div class="col">
+              <TextInput
+                v-model="contactForm.phone"
+                :label="$t('phone')"
+                aspect="fill"
+                type="tel"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <Select
+                v-model="contactForm.location"
+                :options="locationsList"
+                :label="$t('leavingLocation')"
+                aspect="fill"
+                required
+              />
+            </div>
+            <div class="col mobile-hidden" />
+          </div>
+          <Checkbox v-model="contactForm.acceptTerms">
+            <i18n path="acceptTerms" tag="span">
+              <template #terms>
+                <a
+                  href="https://www.provinz.bz.it/de/privacy.asp"
+                  target="_blank"
+                  >{{ $t('terms') }}</a
+                >
+              </template>
+            </i18n>
+          </Checkbox>
+          <Button
+            :value="
+              submittedContactForm
+                ? $t('submittedFormConfirmation')
+                : $t('goIn')
+            "
+            :description="
+              submittedContactForm
+                ? $t('submittedFormConfirmationDesc')
+                : $t('goInDesc')
+            "
+            :loading="isSubmittingContactForm"
+            :disabled="submittedContactForm"
+            class="button"
+            @click="submitContactForm"
+          />
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 

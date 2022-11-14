@@ -75,20 +75,7 @@ export default {
     },
   },
 
-  mounted() {
-    window.onresize = () => {
-      this.checkIfMobile()
-      location.reload()
-    }
-    this.checkIfMobile()
-  },
-
   methods: {
-    checkIfMobile() {
-      if ((this.isMobile = window.innerWidth < 980))
-        return (this.isMobile = true)
-    },
-
     changeLanguage(lang) {
       this.$i18n.setLocale(lang)
     },
