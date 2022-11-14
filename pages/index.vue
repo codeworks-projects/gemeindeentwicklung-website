@@ -246,7 +246,8 @@
 </template>
 
 <script>
-import locations from '@/data/locations.json'
+// import locations from '@/data/locations.json'
+const locations = []
 
 export default {
   data() {
