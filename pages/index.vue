@@ -4,7 +4,7 @@
       <div class="center">
         <div class="top">
           <div class="gallery-ct">
-            <SimpleHomeGallery :photos="galleryPhotos" />
+            <!--<SimpleHomeGallery :photos="galleryPhotos" />-->
           </div>
           <div class="details">
             <h1>{{ $t('introText') }}</h1>
@@ -24,9 +24,9 @@
               </div>
             </a>
           </div>
-          <!--<div class="col quote-ct">
+          <div class="col quote-ct">
             <Icon :name="topQuoteIcoName" class="quote" />
-          </div>-->
+          </div>
         </div>
       </div>
     </section>
@@ -54,7 +54,7 @@
         <!--<p class="section-desc color-inverted centered">
           {{ $t('explanationDesc') }}
         </p>-->
-        <div class="explanations-ct">
+        <!--<div class="explanations-ct">
           <div
             class="inner-slide"
             :style="{
@@ -76,7 +76,7 @@
               <p class="desc">{{ explanation.desc }}</p>
               <p class="desc second">{{ explanation.secDesc }}</p>
             </div>
-          </div>
+          </div>-->
         </div>
         <div class="explanation-controls">
           <div class="progress-bar">
