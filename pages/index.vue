@@ -4,7 +4,7 @@
       <div class="center">
         <div class="top">
           <div class="gallery-ct">
-            <!--<SimpleHomeGallery :photos="galleryPhotos" />-->
+            <SimpleHomeGallery :photos="galleryPhotos" />
           </div>
           <div class="details">
             <h1>{{ $t('introText') }}</h1>
@@ -54,7 +54,7 @@
         <!--<p class="section-desc color-inverted centered">
           {{ $t('explanationDesc') }}
         </p>-->
-        <!--<div class="explanations-ct">
+        <div class="explanations-ct">
           <div
             class="inner-slide"
             :style="{
@@ -76,7 +76,7 @@
               <p class="desc">{{ explanation.desc }}</p>
               <p class="desc second">{{ explanation.secDesc }}</p>
             </div>
-          </div>-->
+          </div>
         </div>
         <div class="explanation-controls">
           <div class="progress-bar">
@@ -103,7 +103,7 @@
       </div>
     </section>
 
-    <section class="faqs">
+    <!--<section class="faqs">
       <div class="center">
         <h2>{{ $t('moreQuestions') }}</h2>
         <p class="section-desc">{{ $t('moreQuestionsDesc') }}</p>
@@ -131,7 +131,7 @@
           </a>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- <section class="map">
       <h2 class="centered">{{ $t('mapTitle') }}</h2>
@@ -141,7 +141,7 @@
       TODO: add here map
     </section> -->
 
-    <section id="contact" class="contact-form bg-primary">
+    <!--<section id="contact" class="contact-form bg-primary">
       <div class="center relative">
         <h2 class="color-inverted">{{ $t('contactTitle') }}</h2>
         <p class="section-desc color-inverted">
@@ -241,7 +241,7 @@
           />
         </div>
       </div>
-    </section>
+    </section>-->
   </main>
 </template>
 
