@@ -24,9 +24,9 @@
               </div>
             </a>
           </div>
-          <div class="col quote-ct">
+          <!--<div class="col quote-ct">
             <Icon :name="topQuoteIcoName" class="quote" />
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
