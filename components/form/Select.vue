@@ -88,6 +88,10 @@ export default {
       background-size: 16px auto;
       background-image: url(~assets/icon/arrow-down-yellow.svg?inline);
 
+      & option {
+        @apply bg-primary-hover;
+      }
+
       &:focus {
         @apply outline-none;
       }
