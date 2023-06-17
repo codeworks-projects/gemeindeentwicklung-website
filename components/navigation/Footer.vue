@@ -7,9 +7,15 @@
           $t('impressum')
         }}</a>
         .
-        <a href="https://www.provinz.bz.it/de/privacy.asp" target="_blank">{{
-          $t('terms')
-        }}</a>
+        <a
+          :href="
+            '/pdf/privacy-cookie-policy' +
+            ($i18n.locale === 'lad' ? '-lad' : '') +
+            '.pdf'
+          "
+          target="_blank"
+          >{{ $t('terms') }}</a
+        >
       </p>
     </div>
   </footer>
